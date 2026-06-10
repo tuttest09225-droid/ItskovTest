@@ -1,0 +1,192 @@
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+
+import LightboxGallery from "../gallery/LightboxGallery";
+
+const SecondaryServiceDetails = ({ service }) => {
+  const { t } = useTranslation();
+  const { t: tServices } = useTranslation("services");
+
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [activeImages, setActiveImages] = useState([]);
+  const [initialIndex, setInitialIndex] = useState(0);
+
+  const openGallery = (images, index = 0) => {
+    setActiveImages(images);
+    setInitialIndex(index);
+    setLightboxOpen(true);
+  };
+
+  const item = {
+    hidden: { opacity: 0, y: 40 },
+    show: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
+  return (
+    <div className="lg:pl-6">
+      <motion.div
+        variants={item}
+        initial="hidden"
+        animate="show"
+        className="border-t border-neutral/10 py-4"
+      >
+        <div className="grid lg:grid-cols-12 gap-8 items-start">
+          {/* LEFT: TEXT */}
+          <div className="lg:col-span-7 h-full">
+            <div className="flex flex-col h-full">
+              {/* TOP CONTENT */}
+              <div>
+                <h4 className="text-xl lg:text-2xl font-semibold text-neutral">
+                  {service.title}
+                </h4>
+
+                {service.emotionalHook && (
+                  <p className="mt-3 text-neutral/60 italic leading-relaxed">
+                    {service.emotionalHook}
+                  </p>
+                )}
+
+                {service.description && (
+                  <p className="mt-3 text-neutral/70 text-sm lg:text-base leading-relaxed">
+                    {service.description}
+                  </p>
+                )}
+              </div>
+
+              {/* BOTTOM CONTENT */}
+              {service.aspects?.length > 0 && (
+                <div className="pt-4 mt-4 border-t border-neutral/10">
+                  <div className="flex flex-wrap gap-2 text-sm lg:text-base text-neutral/60">
+                    {service.aspects.map((aspect, i) => (
+                      <span
+                        key={i}
+                        className="flex items-center gap-2 text-base lg:text-lg text-neutral/90"
+                      >
+                        <span className="w-1 h-1 rounded-full bg-accent/60" />
+                        {aspect}
+                      </span>
+                    ))}
+                    <span className="flex items-center gap-2 text-neutral/90">
+                      <span className="w-1 h-1 rounded-full bg-accent/60" />
+                    </span>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* RIGHT: GALLERY */}
+          <div className="lg:col-span-5">
+            {service.images?.length > 0 && (
+              <div className="flex justify-end">
+                <div
+                  onClick={() => openGallery(service.images, 0)}
+                  className="
+                    relative w-[400px] h-[180px]
+                    cursor-pointer overflow-hidden
+                    rounded-xl group bg-neutral/5
+                  "
+                >
+                  {/* PRIMARY IMAGE */}
+                  {service.images[0] && (
+                    <img
+                      src={service.images[0].src}
+                      alt={service.images[0].alt}
+                      className="
+                        absolute inset-0 w-full h-full object-cover
+                        scale-105 group-hover:scale-110
+                        transition-transform duration-700
+                      "
+                    />
+                  )}
+
+                  {/* OVERLAY */}
+                  <div className="absolute inset-0 bg-gradient-to-tr from-black/25 via-black/5 to-black/40" />
+
+                  {/* SECONDARY STRIP */}
+                  {service.images[1] && (
+                    <div className="absolute top-3 right-3 flex flex-col gap-1">
+                      <img
+                        src={service.images[1].src}
+                        alt={service.images[1].alt}
+                        className="w-16 h-16 object-cover rounded-md opacity-80 border border-white/10"
+                      />
+
+                      {service.images[2] && (
+                        <img
+                          src={service.images[2].src}
+                          alt={service.images[2].alt}
+                          className="w-16 h-16 object-cover rounded-md opacity-60 border border-white/10"
+                        />
+                      )}
+                    </div>
+                  )}
+
+                  {/* MORE COUNT */}
+                  {service.images.length > 3 && (
+                    <div className="absolute bottom-3 right-3">
+                      <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
+                        + {service.images.length - 3} {tServices("more")}
+                      </span>
+                    </div>
+                  )}
+
+                  {/* HOVER */}
+                  <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition flex items-center justify-center">
+                    <span className="text-white text-xs tracking-wider bg-black/30 px-3 py-1 rounded-full">
+                      {tServices("viewGallery")}
+                    </span>
+                  </div>
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+      </motion.div>
+
+      {/* CTA */}
+      <div className="border-t border-neutral/10 pt-10 space-y-4">
+        <h4 className="text-xl font-semibold text-neutral">
+          {t("cta.serviceTitle")}
+        </h4>
+
+        <p className="text-neutral/70">{t("cta.serviceSubtitle")}</p>
+
+        <div className="flex gap-4 flex-wrap">
+          <a
+            href={`mailto:${t("contacts.email.value1")}${t("contacts.email.value2")}@gmail.com?subject=${encodeURIComponent(
+              service.title + " - " + t("cta.quoteRequest"),
+            )}`}
+            className="px-6 py-3 bg-neutral text-white rounded-full hover:bg-accent transition"
+          >
+            {t("cta.quote.label")}
+          </a>
+
+          <a
+            href={t("cta.primaryAction.route")}
+            className="px-6 py-3 border border-neutral text-neutral rounded-full hover:border-accent hover:text-accent transition"
+          >
+            {t("cta.primaryAction.label")}
+          </a>
+        </div>
+      </div>
+
+      <LightboxGallery
+        images={activeImages}
+        isOpen={lightboxOpen}
+        initialIndex={initialIndex}
+        onClose={() => setLightboxOpen(false)}
+      />
+    </div>
+  );
+};
+
+export default SecondaryServiceDetails;
