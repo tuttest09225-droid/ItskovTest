@@ -183,16 +183,16 @@ const ServiceDetails = ({ service }) => {
                 {sub.description}
               </p>
 
-              {sub.steps?.length > 0 && (
+              {sub.aspects?.length > 0 && (
                 <div className="pt-4 mt-4 border-t border-neutral/10">
                   <div className="flex flex-wrap gap-2 text-sm lg:text-base text-neutral/60 justify-self-center">
-                    {sub.steps.map((step, i) => (
+                    {sub.aspects.map((aspect, i) => (
                       <span
                         key={i}
                         className="flex items-center gap-2 text-base lg:text-lg text-neutral/90"
                       >
                         <span className="w-1 h-1 rounded-full bg-accent/60" />
-                        {step}
+                        {aspect}
                       </span>
                     ))}
                   </div>
