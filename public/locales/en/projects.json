@@ -1,0 +1,337 @@
+{
+    "title": "Explore Our Projects",
+    "allProjects": [
+        {
+            "slug": "mall-project",
+            "layout": "cinematic",
+            "category": "commercial",
+            "mainImage": "/projects/Mall_project/1.png",
+            "time": "7 Working Days",
+            "hero": {
+                "title": "Mall Interior Renovation",
+                "subtitle": "Renovation and Repainting of Ceiling and Columns",
+                "type": "Commercial",
+                "year": "2025",
+                "location": "Sofia"
+            },
+            "overview": {
+                "title": "Renovation and Repainting of Ceilings and Columns in Shopping Mall",
+                "description": "We carried out a complete refresh of the interior spaces in a large shopping mall, focusing primarily on the ceilings and columns. The work included surface preparation through sanding and plastering, removal of old coatings, and application of high-quality, long-lasting paints. For the columns, we used wear-resistant coatings to ensure durability and easy maintenance, while the ceilings were painted with white dispersion paint to create a brighter and more spacious look. The project was completed within a short timeframe and with minimal disruption to the operation of the retail stores. The final result is a modern, clean, and fresh appearance that enhances the overall experience of visitors."
+            },
+            "metrics": [
+                {
+                    "label": "Duration",
+                    "value": "7 Working Days"
+                },
+                {
+                    "label": "Business Interuption",
+                    "value": "None"
+                },
+                {
+                    "label": "Scope",
+                    "value": "Ceilings & Columns"
+                },
+                {
+                    "label": "Area",
+                    "value": "1500 m²"
+                }
+            ],
+            "tagsTitle": "Services provided:",
+            "tags": [
+                "Renovation",
+                "Painting",
+                "Interior",
+                "Mall"
+            ],
+            "featuredImage": "/projects/Mall_project/4.png",
+            "featuredImageAlt": "Mall project photo 4",
+            "galleryTitle": "Ceiling & Column Restoration",
+            "images": [
+                {
+                    "src": "/projects/Mall_project/1.png",
+                    "alt": "Mall project photo 1"
+                },
+                {
+                    "src": "/projects/Mall_project/2.png",
+                    "alt": "Mall project photo 2"
+                },
+                {
+                    "src": "/projects/Mall_project/3.png",
+                    "alt": "Mall project photo 3"
+                },
+                {
+                    "src": "/projects/Mall_project/4.png",
+                    "alt": "Mall project photo 4"
+                },
+                {
+                    "before": "/projects/Mall_project/5.png",
+                    "after": "/services-electrical.jpg",
+                    "alt": "Ceiling renovation comparison"
+                },
+                {
+                    "before": "/projects/Mall_project/6.png",
+                    "after": "/services-painting.jpg",
+                    "alt": "Column 2 comparison"
+                }
+            ]
+        },
+        {
+            "slug": "parking-renovation",
+            "layout": "cinematic",
+            "category": "commercial",
+            "time": "5 Working Days",
+            "mainImage": "/projects/Parking_refurbished/IMG_5401.jpg",
+            "hero": {
+                "title": "Parking Area Renovation",
+                "subtitle": "Maintenance & Renovation",
+                "type": "Commercial",
+                "year": "2026",
+                "location": "Sofia"
+            },
+            "overview": {
+                "title": "Large Scale Maintenance Across Active Commercial Areas",
+                "description": "This project included multiple maintenance and renovation activities across high-traffic commercial zones within an operational shopping mall environment. The work focused on restoring visual consistency, improving durability, and maintaining safe visitor access throughout all stages of execution."
+            },
+            "metrics": [
+                {
+                    "label": "Duration",
+                    "value": "14 Days"
+                },
+                {
+                    "label": "Business Disruption",
+                    "value": "None"
+                },
+                {
+                    "label": "Scope",
+                    "value": "Walls & Ceilings"
+                },
+                {
+                    "label": "Area",
+                    "value": "5000 m²"
+                }
+            ],
+            "sections": [
+                {
+                    "title": "Site Preparation",
+                    "text": "The initial stage involved assessment of damaged surfaces, traffic management coordination, and preparation of active commercial zones for phased renovation work. Protective barriers and temporary pathways were installed to maintain uninterrupted visitor movement throughout the project."
+                },
+                {
+                    "title": "Surface Restoration",
+                    "text": "Renovation works included ceiling repainting, column restoration, replacement of damaged tiles, crack repairs, and repainting of parking infrastructure. High-resistance commercial-grade materials were selected to ensure long-term durability under heavy daily use."
+                },
+                {
+                    "title": "Operational Coordination",
+                    "text": "One of the primary challenges of the project was maintaining safe operation of the facility while construction activities were ongoing. Work was organized in controlled phases to minimize disruption to surrounding retail stores and public access areas."
+                },
+                {
+                    "title": "Final Result",
+                    "text": "The completed maintenance program restored a cleaner, brighter and more modern visual appearance across key public areas of the facility while significantly improving surface durability and long-term maintainability."
+                }
+            ],
+            "tags": [
+                "Renovation",
+                "Painting",
+                "Interior",
+                "Mall"
+            ],
+            "galleryTitle": "Complete gallery",
+            "images": [
+                {
+                    "before": "/projects/Parking_markings/parking-1-bef.jpeg",
+                    "after": "/projects/Parking_markings/parking-1-aft.jpeg",
+                    "alt": "Ceiling renovation comparison"
+                },
+                {
+                    "before": "/projects/Parking_markings/parking-2-bef.jpeg",
+                    "after": "/projects/Parking_markings/parking-2-aft.jpeg",
+                    "alt": "Ceiling renovation comparison"
+                },
+                {
+                    "before": "/projects/Parking_markings/parking-3-bef.jpeg",
+                    "after": "/projects/Parking_markings/parking-3-aft.jpeg",
+                    "alt": "Ceiling renovation comparison"
+                },
+                {
+                    "src": "/projects/Parking_markings/parking-4.jpeg",
+                    "alt": "Mall project photo 4"
+                },
+                {
+                    "src": "/projects/Parking_markings/parking-5.jpeg",
+                    "alt": "Mall project photo 5"
+                }
+            ]
+        },
+        {
+            "hero": {
+                "title": "Living Room Renovation"
+            },
+            "slug": "living_room",
+            "overview": {
+                "description": "Complete renovation and modernization of a residential living room. The project included removal of old wallpaper, wall preparation and skim coating, repainting of walls and ceiling, and installation of decorative wall panels. The result is a brighter, more contemporary living space with improved aesthetics and a refined interior finish."
+            },
+            "layout": "editorial",
+            "category": "residential",
+            "tags": [
+                "Renovation",
+                "Painting",
+                "Interior",
+                "Living Room"
+            ],
+            "timeTitle": "Time to complete:",
+            "time": "10 Working Days",
+            "mainImage": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+            "metrics": [
+                {
+                    "label": "Area",
+                    "value": "120 m²"
+                },
+                {
+                    "label": "Duration",
+                    "value": "10 Days"
+                },
+                {
+                    "label": "Status",
+                    "value": "Completed"
+                }
+            ],
+            "sections": [
+                {
+                    "title": "Preparation & Wallpaper Removal",
+                    "text": "The renovation began with the removal of existing wallpaper and a thorough inspection of wall surfaces. All areas were carefully prepared to ensure a clean foundation for the subsequent finishing works."
+                },
+                {
+                    "title": "Wall Restoration & Skim Coating",
+                    "text": "After the old finishes were removed, the walls were repaired and skim coated to achieve smooth, even surfaces. Special attention was given to correcting imperfections and creating a flawless base for painting."
+                },
+                {
+                    "title": "Painting & Decorative Finishes",
+                    "text": "The walls and ceiling were finished with high-quality interior paint selected to enhance brightness and create a fresh, modern atmosphere. Decorative wall panels were then installed to add texture, character, and visual interest to the living space."
+                },
+                {
+                    "title": "Final Result",
+                    "text": "The completed renovation transformed the living room into a modern, welcoming, and elegant environment. The combination of smooth painted surfaces and decorative wall panels created a clean contemporary aesthetic while significantly improving the overall appearance of the room."
+                }
+            ],
+            "images": [
+                {
+                    "before": "/projects/Apartment_livingRoom/livingRoom-1-bef.jpeg",
+                    "after": "/projects/Apartment_livingRoom/livingRoom-1-aft.jpeg",
+                    "alt": "Living room renovation comparison"
+                },
+                {
+                    "before": "/projects/Apartment_livingRoom/livingRoom-2-bef.jpeg",
+                    "after": "/projects/Apartment_livingRoom/livingRoom-2-aft.jpeg",
+                    "alt": "Living room renovation comparison"
+                },
+                {
+                    "src": "/projects/Apartment_livingRoom/livingRoom-3.jpeg",
+                    "alt": "Living room renovation progress"
+                },
+                {
+                    "src": "/projects/Apartment_livingRoom/livingRoom-4.jpeg",
+                    "alt": "Finished living room interior"
+                },
+                {
+                    "src": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+                    "alt": "Completed living room renovation"
+                }
+            ]
+        },
+        {
+  "hero": {
+    "title": "Storefront Demolition & Interior Preparation"
+  },
+  "slug": "storefront-demolition",
+  "overview": {
+    "description": "Complete strip-out and preparation of a commercial storefront for a new tenant fit-out. The project involved full interior demolition, removal of outdated finishes, surface repairs, and preparation of the space for a complete redesign. Works were carried out with careful coordination to ensure safety and minimal impact on surrounding operational areas."
+  },
+  "layout": "compact",
+  "category": "commercial",
+  "tags": [
+    "Demolition",
+    "Fit-out Preparation",
+    "Interior",
+    "Storefront",
+    "Renovation"
+  ],
+  "timeTitle": "Time to complete:",
+  "time": "10 Working Days",
+  "mainImage": "/projects/Store_demo/storePreparation-1.jpeg",
+  "metrics": [
+    {
+      "label": "Area",
+      "value": "100 m²"
+    },
+    {
+      "label": "Duration",
+      "value": "10 Days"
+    },
+    {
+      "label": "Business Disruption",
+      "value": "None"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Site Preparation",
+      "text": "The project began with a detailed site assessment, followed by the setup of safety barriers, dust control systems, and phased work zones. This ensured safe operation and uninterrupted access to adjacent commercial areas throughout the works."
+    },
+    {
+      "title": "Demolition & Strip-Out",
+      "text": "Existing interior elements, including damaged finishes, partitions, and outdated fixtures, were carefully removed. All materials were disposed of in compliance with waste management and site safety regulations."
+    },
+    {
+      "title": "Surface Restoration",
+      "text": "Walls, ceilings, and floors were repaired and prepared for new finishes. This included crack repairs, surface levelling, repainting, and replacement of damaged tiles using durable, commercial-grade materials."
+    },
+    {
+      "title": "Operational Coordination",
+      "text": "Works were executed in controlled phases to ensure minimal disruption to surrounding businesses and public access. Careful scheduling allowed the site to remain partially operational throughout the project."
+    },
+    {
+      "title": "Final Result",
+      "text": "The space was successfully transformed into a clean, neutral shell ready for the next tenant’s interior design. The upgraded surfaces and improved condition provided a strong foundation for a modern commercial fit-out."
+    }
+  ],
+  "images": [
+    {
+      "src": "/projects/Store_demo/storePreparation-1.jpeg",
+      "alt": "Storefront demolition site overview"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-2.jpeg",
+      "alt": "Interior strip-out in progress"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-3.jpeg",
+      "alt": "Removal of old interior finishes"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-4.jpeg",
+      "alt": "Site preparation and safety setup"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-5.jpeg",
+      "alt": "Surface repair and cleaning works"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-6.jpeg",
+      "alt": "Commercial renovation progress"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-7.jpeg",
+      "alt": "Pre-fit-out preparation stage"
+    },
+    {
+      "src": "/projects/Store_demo/storePreparation-8.jpeg",
+      "alt": "Final cleared space ready for tenant fit-out"
+    }
+  ]
+}
+    ],
+    "filteredByTag": "Showing results for - {{tag}}",
+    "backToProjects": "Back to projects",
+    "allProjectsBtn": "All projects",
+    "stage": "Stage",
+    "gallery": "Gallery"
+}

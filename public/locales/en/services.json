@@ -1,0 +1,545 @@
+{
+  "intro": {
+    "title": "Our Services",
+    "text": "We offer flexible and high-quality solutions for home and office. From small improvements to complete renovations - we are with you every step of the way.",
+    "text2": "Explore our services below."
+  },
+  "listTitle": "What services do we offer?",
+  "additionalServices": "Additional Services",
+  "viewDetails": "View Details",
+  "hideDetails": "Hide Details",
+  "viewGallery": "View Gallery",
+  "more": "more",
+  "serviceList": [
+    {
+      "id": "complete",
+      "title": "Complete and Partial Interior Renovations",
+      "type": "primary",
+      "image": "/services-complete.jpg",
+      "introHook": "One team. One result.",
+      "text": "From the first step to the last, we are with you every step of the way.",
+      "emotionalHook": "From the first demolotion to the final detail, every trade managed and coordinated under one roof.",
+      "overview": "Complete and partial interior renovations delivered under one roof. From preparation and installations to finishing works and project coordination, every stage is managed for a seamless result.",
+      "servicesInclude": "Included services:",
+      "subServices": [
+        {
+          "title": "Full Renovation",
+          "description": "A complete transformation of residential and commercial spaces, coordinated from demolition to final handover. All renovation works are performed and coordinated by our team, providing a streamlined process with a single point of responsibility.",
+          "aspects": [
+            "Preparation",
+            "Structural Work",
+            "Installations",
+            "Finishing"
+          ],
+          "steps": [
+            "Planning",
+            "Demolition",
+            "Construction",
+            "Finishing"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Full Renovation A–Z 1"
+            },
+            {
+              "src": "/services-kitchen.jpg",
+              "alt": "Full Renovation A–Z 2"
+            },
+            {
+              "src": "/services-drywall.jpg",
+              "alt": "Full Renovation A–Z 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Full Renovation A–Z 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Full Renovation A–Z 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Full Renovation A–Z 6"
+            }
+          ]
+        },
+        {
+          "title": "Project Management",
+          "aspects": [
+            "Scheduling",
+            "Trade Coordination",
+            "Quality Control",
+            "Delivery"
+          ],
+          "description": "We manage all subcontractors and timelines in one system.",
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Project Coordination 6"
+            }
+          ]
+        },
+        {
+          "title": "Finishing Works",
+          "description": "The final stage that brings the entire project together. From surface finishes and detailing to final inspections, every element is completed with care to ensure the space is ready for use and finished to a high standard.",
+          "aspects": [
+            "Painting",
+            "Tiling",
+            "Detailing",
+            "Handover"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Finishing Works 6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "title": "Electrical Services",
+      "type": "primary",
+      "image": "/services-electrical.jpg",
+      "introHook": "Planned today. For tomorrow.",
+      "text": "Safety, functionality, and good aesthetics - that's our standard.",
+      "emotionalHook": "A well planned electrical system today, prevents costly changes tomorrow.",
+      "overview": "Complete electrical solutions for renovations, new installations and system upgrades. Designed for safety, reliability and future requirements from day one.",
+      "servicesInclude": "Related services:",
+      "subServices": [
+        {
+          "title": "Complete Electrical Installation",
+          "description": "End-to-end electrical systems for new and renovated properties. Planned and installed to support both current usage and future expansion without unnecessary modifications.",
+          "aspects": [
+            "Wiring",
+            "Distribution Panels",
+            "Protection",
+            "Testing"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Wiring Installation 6"
+            }
+          ]
+        },
+        {
+          "title": "Lighting Systems",
+          "description": "Functional and decorative lighting solutions tailored to the needs of each space. From ambient lighting to task-focused installations, every system is designed for comfort and efficiency.",
+          "aspects": [
+            "Indoor Lighting",
+            "Outdoor Lighting",
+            "Controls",
+            "Installation"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Panels & Fixtures 6"
+            }
+          ]
+        },
+        {
+          "title": "Switches & Sockets",
+          "description": "Installation, replacement and relocation of switches, sockets and connection points. Positioned around real-world usage for convenience, accessibility and clean aesthetics.",
+          "aspects": [
+            "Switches",
+            "Sockets",
+            "Relocation",
+            "Replacement"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 2"
+            }
+          ]
+        },
+        {
+          "title": "Diagnostics & Repairs",
+          "description": "Professional fault detection and troubleshooting for electrical systems. Fast identification of issues followed by safe and reliable repairs that restore performance and peace of mind.",
+          "aspects": [
+            "Fault Detection",
+            "Troubleshooting",
+            "Repairs",
+            "Verification"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plumbing",
+      "title": "Plumbing Services",
+      "type": "primary",
+      "introHook": "Done once. done right.",
+      "overview": "Complete plumbing solutions for residential and commercial properties. From new installations to repairs and system upgrades, every component is installed for long-term reliability.",
+      "text": "Plumbing should be done once - but done right.",
+      "emotionalHook": " Hidden behind the walls, built to perorm and last for years.",
+      "servicesInclude": "Related services:",
+      "subServices": [
+        {
+          "title": "Complete Plumbing Systems",
+          "description": "Design and installation of water supply and drainage systems for new construction and renovation projects. Built to perform reliably behind the walls for years to come.",
+          "aspects": [
+            "Water Supply",
+            "Drainage",
+            "Pipe Routing",
+            "Pressure Testing"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 4"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 5"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Installations 6"
+            }
+          ]
+        },
+        {
+          "title": "Bathroom Plumbing",
+          "description": "Complete plumbing installation for bathrooms, including showers, toilets, washbasins and concealed systems. Designed for reliable everyday use and seamless integration with the finished space.",
+          "aspects": [
+            "Showers",
+            "Toilets",
+            "Washbasins",
+            "Connections"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Leak Detection 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Leak Detection 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Leak Detection 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "InstLeak Detections 4"
+            }
+          ]
+        },
+        {
+          "title": "Kitchen Plumbing",
+          "description": "Plumbing solutions for kitchens, utility rooms and appliance connections. Planned around functionality, efficiency and the demands of daily use.",
+          "aspects": [
+            "Sinks",
+            "Appliances",
+            "Water Lines",
+            "Drainage"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 4"
+            }
+          ]
+        },
+        {
+          "title": "Repairs & Diagnostics",
+          "description": "Identification and repair of leaks, damaged pipes and plumbing faults. Thorough diagnostics and testing help prevent recurring issues and unnecessary disruption.",
+          "aspects": [
+            "Leak Detection",
+            "Pipe Repairs",
+            "Diagnostics",
+            "Testing"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 2"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 3"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Pressure 4"
+            }
+          ]
+        }
+      ],
+      "image": "/services-bathroom.jpg"
+    },
+    {
+      "id": "drywall",
+      "title": "Drywall",
+      "type": "secondary",
+      "introTag": "Shape your interior freely",
+      "introHook": "Imagine. Shape. Create.",
+      "text": "Perfect solution for modern interiors and insulation.",
+      "emotionalHook": "Tranforming empty spaces into the functional and beautiful rooms you envision/require.",
+      "description": "Modern drywall systems for creating functional layouts, improving insulation and achieving clean, finished surfaces.",
+      "image": {
+        "src": "/services-drywall.jpg",
+        "alt": "Drywall installation overview"
+      },
+      "steps": [
+        "Wall framing & structure setup",
+        "Board installation",
+        "Joint finishing & smoothing"
+      ],
+      "aspects": [
+        "Space Division",
+        "Insulation",
+        "Surface Finishing"
+      ],
+      "images": [
+        {
+          "src": "/services-complete.jpg",
+          "alt": "Project Coordination 1"
+        },
+        {
+          "src": "/services-complete.jpg",
+          "alt": "Project Coordination 2"
+        },
+        {
+          "src": "/services-complete.jpg",
+          "alt": "Project Coordination 3"
+        },
+        {
+          "src": "/services-complete.jpg",
+          "alt": "Project Coordination 4"
+        },
+        {
+          "src": "/services-complete.jpg",
+          "alt": "Project Coordination 5"
+        }
+      ]
+    },
+    {
+      "id": "tiling",
+      "title": "Tile Installation",
+      "type": "secondary",
+      "introTag": "Precision meets design",
+      "introHook": "Every detail counts.",
+      "overview": "High-quality tile installation for all interior and exterior spaces.",
+      "description":"Professional tile installation for walls and floors, delivered with precision, durability and attention to detail.",
+      "text": "Tiles define the character of your space.",
+      "emotionalHook": "Precise instalation and lasting craftsmanship in every tile, every surface and every detail.",
+      "image": {
+        "src": "/services-floor-tiles.jpg",
+        "alt": "Tile installation overview"
+      },
+      "steps": [
+        "Surface preparation & leveling",
+        "Tile placement & alignment",
+        "Grouting & finishing"
+      ],
+      "aspects": [
+        "Walls & Floors",
+        "Large Format Tiles",
+        "Precision Finishing"
+      ]
+    },
+    {
+      "id": "painting",
+      "title": "Painting",
+      "type": "secondary",
+      "introTag": "Color changes everything",
+      "introHook": "Color. Mood. Atmosphere.",
+      "emotionalHook": "The finishing touch that gives every space it's character.",
+      "description":"Professional interior painting that delivers clean finishes, lasting durability and the right atmosphere for every space.",
+      "overview": "Interior painting with clean execution and professional finishes.",
+      "text": "A new color transforms everything.",
+      "image": {
+        "src": "/services-painting.jpg",
+        "alt": "Painting services overview"
+      },
+      "steps": [
+        "Surface preparation & masking",
+        "Primer application",
+        "Final coating & detailing"
+      ],
+      "aspects": [
+        "Color Selection",
+        "Surface Preparation",
+        "Lasting Finish"
+      ]
+    },
+    {
+      "id": "plastering",
+      "title": "Plastering",
+      "type": "secondary",
+      "overview": "Professional plastering for smooth and durable walls.",
+      "introHook": "Perfect surfaces start here",
+      "emotionalHook": "Smooth, durable surfaces that last for years and lay the foundation of your dream home.",
+      "description":"Precision plastering for level walls, clean surfaces and long-lasting results.",
+      "text": "Strong walls begin with proper plastering.",
+      "image": {
+        "src": "/services-plastering.png",
+        "alt": "Plastering work overview"
+      },
+      "steps": [
+        "Surface cleaning & preparation",
+        "Plaster application",
+        "Smoothing & finishing layer"
+      ],
+      "aspects": [
+        "Wall Preparation",
+        "Surface Leveling",
+        "Smooth Finishing"
+      ]
+    },
+    {
+      "id": "floor-screed",
+      "title": "Floor Screed",
+      "type": "secondary",
+      "introTag": "Solid foundation for every floor",
+      "introHook": "The foundation. No compromises.",
+      "emotionalHook": "Evry floor begins with a level and strong foundation. And ends exatly as envisioned.",
+      "description":"Precision screed application and floor leveling for a stable foundation ready for any flooring system.",
+      "overview": "Precision floor leveling and screed application.",
+      "text": "A strong base ensures long-lasting floors.",
+      "image": {
+        "src": "/services-floor-screed.webp",
+        "alt": "Floor screed installation overview"
+      },
+      "steps": [
+        "Surface preparation",
+        "Screed pouring & leveling",
+        "Final curing & surface check"
+      ],
+      "aspects": [
+        "Base Preparation",
+        "Precision Leveling",
+        "Ready for Flooring"
+      ]
+    }
+  ]
+}

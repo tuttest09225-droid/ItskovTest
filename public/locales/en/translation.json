@@ -1,0 +1,209 @@
+{
+  "site": {
+    "title": "ITSKOV STROY Ltd. - Renovations and Repairs in Sofia",
+    "description": "ITSKOV STROY Ltd. offers professional renovation and repair services for homes, offices, and buildings. Fast. Easy. High Quality.",
+    "keywords": "renovation, construction, repair services, ITSKOV STROY Ltd., home renovation, bathroom repair, painting, drywall, plastering, Sofia, building company",
+    "author": "Aleksandar Ickov",
+    "og": {
+      "type": "website",
+      "site_name": "ITSKOV STROY Ltd.",
+      "image": "https://itskovstroy.com/og-image.jpg",
+      "image_alt": "ITSKOV STROY Ltd. Renovations in Sofia"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "handle": "@itskovstroy"
+    },
+    "organization": {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ITSKOV STROY Ltd.",
+      "url": "https://itskovstroy.com",
+      "logo": "https://itskovstroy.com/logo192.png",
+      "description": "Professional renovation and repair services for homes, offices, and commercial properties in Sofia.",
+      "sameAs": [
+        "https://www.facebook.com/itskovstroy",
+        "https://www.instagram.com/itskovstroy",
+        "https://www.linkedin.com/company/itskovstroy"
+      ]
+    },
+    "pages": {
+      "home": {
+        "title": "Home Renovations in Sofia | ITSKOV STROY Ltd.",
+        "description": "Expert renovation services for homes and businesses in Sofia. Trust, Quality, and Professionalism in every project.",
+        "keywords": "home renovation Sofia, apartment renovation Sofia, trusted renovation company",
+        "canonical": "https://itskovstroy.com/"
+      },
+      "services": {
+        "title": "Renovation and Repair Services in Sofia | ITSKOV STROY Ltd.",
+        "description": "Professional renovation, painting, drywall, and electrical services in Sofia. Reliable results and excellent quality.",
+        "keywords": "renovation services Sofia, painting, drywall, electrical repairs",
+        "canonical": "https://itskovstroy.com/services"
+      },
+      "projects": {
+        "title": "Completed Renovation Projects in Sofia | ITSKOV STROY Ltd.",
+        "description": "Explore our renovation projects in Sofia — from residential to commercial spaces. Proven quality and precision.",
+        "keywords": "renovation projects Sofia, completed works, portfolio",
+        "canonical": "https://itskovstroy.com/projects"
+      },
+      "contacts": {
+        "title": "Contact Itskov Stroy | Renovations & Construction in Sofia",
+        "description": "Get in touch with Itskov Stroy — trusted renovation and construction professionals in Sofia. Call or email us for a free consultation.",
+        "keywords": "contact renovation company Sofia, Itskov Stroy contact, construction Sofia, renovation services Bulgaria",
+        "canonical": "https://itskovstroy.com/contacts"
+      },
+      "404": {
+        "title": "404 Page Not Found | ITSKOV STROY Ltd.",
+        "description": "The page you’re looking for doesn’t exist. Return to our homepage for renovation and repair services in Sofia.",
+        "canonical": "https://itskovstroy.com/"
+      }
+    }
+  },
+  "language": {
+    "bg": "Bulgarian",
+    "en": "English"
+  },
+  "navbar": {
+    "logo": "/logo_en_nobg.png",
+    "home": "Home",
+    "about": "About Us",
+    "projects": "Projects",
+    "services": "Services",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "phone": "+359 87 962 9072",
+    "email": {
+      "value1": "itskov",
+      "value2": "stroy"
+    },
+    "slogan": "Contact us - and your home will thank you!",
+    "social": "Socials",
+    "social-links": {
+      "linkedin": "https://www.linkedin.com/company/itskov-stroy-ltd",
+      "facebook": "https://www.facebook.com/share/1BvWYduzfo/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/itskovstroy/"
+    }
+  },
+  "home": {
+    "title": "Who Are We?",
+    "subtitle": "ITSKOV STROY Ltd. is a renovation and remodeling company with a clear focus: professional, high-quality execution of your construction projects - from small improvements to complete transformations",
+    "more": "Learn more about our:",
+    "btnprojects": "Projects",
+    "btnservices": "Services",
+    "slogan": "Your home. Our commitment.",
+    "bold1": "Trust",
+    "bold2": "Quality",
+    "bold3": "Professionalism"
+  },
+  "about": {
+    "intro": {
+      "title": "About Us",
+      "paragraph": {
+        "1": "ITSKOV STROY Ltd. is a company focused on quality interior renovations, founded with a clear mission - to restore trust in reliable and responsible construction.",
+        "2": "We work with both individuals and businesses alike, offering a full range of services for apartments, houses, and commercial properties."
+      },
+      "subtitle": "What differentiates us?",
+      "points": {
+        "1": "In a world where 'renovation' is often associated with delays, compromises, and unnecessary stress - we choose a different path.",
+        "2": "A team that works with responsibility, dedication, and a personal approach.",
+        "3": "We don't make promises we can't keep.",
+        "4": "We value clear communication, honesty, and the highest quality in every service we provide."
+      }
+    },
+    "issues": {
+      "title": "Why Choose Us?",
+      "factors": {
+        "1": {
+          "title": "Your Time is Money",
+          "text": "We organize the entire process quickly and without unnecessary hassle.",
+          "details": [
+            "We coordinate all craftsmen and stages of the renovation for you",
+            "We save you the trouble of searching for separate specialists",
+            "We work according to a plan and schedule to avoid surprises",
+            "Minimum effort on your side - maximum results"
+          ]
+        },
+        "2": {
+          "title": "Quality Without Compromise",
+          "text": "Long-lasting, high-quality solutions with attention to every detail.",
+          "details": [
+            "We use proven materials and technologies",
+            "Each stage is carefully inspected before moving forward",
+            "We aim for a finished result that lasts for years",
+            "Attention to detail - from hidden installations to final touches"
+          ]
+        },
+        "3": {
+          "title": "Integrity Without Exceptions",
+          "text": "We work precisely and keep every promise we make.",
+          "details": [
+            "Transparent terms and clear agreements",
+            "No hidden costs or changes without your approval",
+            "Constant feedback throughout the renovation",
+            "We value trust - your peace of mind is our priority"
+          ]
+        },
+        "4": {
+          "title": "Deadlines and Accessibility",
+          "text": "Always on time and always available for you.",
+          "details": [
+            "We meet agreed deadlines without unnecessary delays",
+            "We adapt to your time and schedule",
+            "You will always get an answer to any question or concern",
+            "We remain available for consultations and support even after the project is completed"
+          ]
+        }
+      }
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "text": {
+      "normal": "Get in touch and take the first step toward your renewed home - ",
+      "bold1": "Trust",
+      "bold2": "Quality",
+      "bold3": "and Professionalism."
+    },
+    "location": {
+      "note": "Location:",
+      "value": "Sofia, Bulgaria"
+    },
+    "phone": {
+      "note": "Phone:",
+      "value": "+359 87 962 9072"
+    },
+    "email": {
+      "note": "Email:",
+      "value1": "itskov",
+      "value2": "stroy"
+    }
+  },
+  "404page": {
+    "title": "404",
+    "subtitle": "Page not found",
+    "text": "Sorry, the page you are looking for doesn't exist or has been moved. Please use the navigation above to find what you are looking for.",
+    "btn": "Go to HomePage"
+  },
+  "cta": {
+    "title": "Need Construction & Renovation Services",
+    "subtitle": "Reliable solutions tailored to your needs.",
+    "description": "We provide professional construction and renovation services for residential and commercial projects.",
+    "serviceTitle": "Need this service?",
+    "serviceSubtitle": "Get a tailored quote based on your project scope.",
+    "genericEmailSubject" : "Service Quote Request",
+    "quoteRequest": "Quote Request",
+    "primaryAction": {
+      "label": "Contact Us",
+      "route": "/contacts"
+    },
+    "secondaryAction": {
+      "label": "View All Projects",
+      "route": "/projects"
+    },
+    "quote": {
+      "label": "Request a Quote",
+      "route": "/contacts"
+    }
+  }
+}
