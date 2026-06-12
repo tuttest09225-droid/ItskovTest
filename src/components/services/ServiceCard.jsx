@@ -42,7 +42,7 @@ const ServiceCard = ({ service, isOpen, onToggle }) => {
                 isOpen ? "rotate-180 text-accent text-4xl" : "text-neutral"
               }`}
             />
-
+ 
             <span className="text-lg text-neutral/70">
               {isOpen ? tServices("hideDetails") : tServices("viewDetails")}
             </span>

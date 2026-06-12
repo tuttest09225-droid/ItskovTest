@@ -13,6 +13,10 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
   const [activeImages, setActiveImages] = useState([]);
   const [initialIndex, setInitialIndex] = useState(0);
 
+  const galleryImages = service.images?.map((img) => ({
+    ...img,
+    src: img.src || img.after,
+  }));
   const accordionRef = useRef(null);
 
   const scrollToAccordion = () => {
@@ -37,21 +41,21 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
       {/* Header */}
       <button
         onClick={() => {
-    const opening = !isOpen;
+          const opening = !isOpen;
 
-    onToggle();
+          onToggle();
 
-    if (opening) {
-      setTimeout(() => {
-        scrollToAccordion();
-      }, 350);
-    }
-  }}
+          if (opening) {
+            setTimeout(() => {
+              scrollToAccordion();
+            }, 350);
+          }
+        }}
         className="w-full py-4 flex items-center justify-between gap-4 text-left"
       >
         <div className="flex items-center gap-4">
           <img
-            src={service.image?.src}
+            src={service.image?.src || service.image?.after}
             alt={service.image?.alt}
             className="w-16 h-16 rounded-lg object-cover"
           />
@@ -105,49 +109,35 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
             </div>
           )}
 
-          {service.images?.length > 0 ? (
+          {galleryImages?.length > 0 ? (
             <div
-              onClick={() => openGallery(service.images, 0)}
-              className="
-      relative w-full h-56
-      cursor-pointer overflow-hidden
-      rounded-xl group bg-neutral/5
-    "
+              onClick={() => openGallery(galleryImages, 0)}
+              className="relative w-full h-56 cursor-pointer overflow-hidden rounded-xl group bg-neutral/5 "
             >
               {/* Main image */}
               <img
-                src={service.images[0].src}
-                alt={service.images[0].alt}
-                className="
-        absolute inset-0 w-full h-full object-cover
-        transition-transform duration-700
-        group-active:scale-105
-      "
+                src={galleryImages[0].src}
+                alt={galleryImages[0].alt}
+                className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-active:scale-105 "
               />
 
               {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-tr from-black/25 via-black/5 to-black/40" />
 
               {/* Preview strip */}
-              {service.images[1] && (
+              {galleryImages[1] && (
                 <div className="absolute top-3 right-3 flex flex-col gap-1">
                   <img
-                    src={service.images[1].src}
-                    alt={service.images[1].alt}
-                    className="
-            w-14 h-14 object-cover rounded-md
-            border border-white/10
-          "
+                    src={galleryImages[1].src}
+                    alt={galleryImages[1].alt}
+                    className="w-14 h-14 object-cover rounded-md border border-white/10 "
                   />
 
-                  {service.images[2] && (
+                  {galleryImages[2] && (
                     <img
-                      src={service.images[2].src}
-                      alt={service.images[2].alt}
-                      className="
-              w-14 h-14 object-cover rounded-md
-              border border-white/10 opacity-80
-            "
+                      src={galleryImages[2].src}
+                      alt={galleryImages[2].alt}
+                      className="w-14 h-14 object-cover rounded-md border border-white/10 opacity-80 "
                     />
                   )}
                 </div>
@@ -207,7 +197,7 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
                 {t("cta.primaryAction.label")}
               </Link>
             </div>
-          {/* <button
+            {/* <button
             onClick={onToggle}
             className="text-accent text-lg uppercase tracking-wider"
           >

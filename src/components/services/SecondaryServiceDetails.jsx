@@ -12,6 +12,11 @@ const SecondaryServiceDetails = ({ service }) => {
   const [activeImages, setActiveImages] = useState([]);
   const [initialIndex, setInitialIndex] = useState(0);
 
+  const galleryImages = service.images?.map((img) => ({
+    ...img,
+    src: img.src || img.after,
+  }));
+
   const openGallery = (images, index = 0) => {
     setActiveImages(images);
     setInitialIndex(index);
@@ -85,10 +90,10 @@ const SecondaryServiceDetails = ({ service }) => {
 
           {/* RIGHT: GALLERY */}
           <div className="lg:col-span-5">
-            {service.images?.length > 0 && (
+            {galleryImages?.length > 0 && (
               <div className="flex justify-end">
                 <div
-                  onClick={() => openGallery(service.images, 0)}
+                  onClick={() => openGallery(galleryImages, 0)}
                   className="
                     relative w-[400px] h-[180px]
                     cursor-pointer overflow-hidden
@@ -96,10 +101,10 @@ const SecondaryServiceDetails = ({ service }) => {
                   "
                 >
                   {/* PRIMARY IMAGE */}
-                  {service.images[0] && (
+                  {galleryImages[0] && (
                     <img
-                      src={service.images[0].src}
-                      alt={service.images[0].alt}
+                      src={galleryImages[0].src}
+                      alt={galleryImages[0].alt}
                       className="
                         absolute inset-0 w-full h-full object-cover
                         scale-105 group-hover:scale-110
@@ -112,18 +117,18 @@ const SecondaryServiceDetails = ({ service }) => {
                   <div className="absolute inset-0 bg-gradient-to-tr from-black/25 via-black/5 to-black/40" />
 
                   {/* SECONDARY STRIP */}
-                  {service.images[1] && (
+                  {galleryImages[1] && (
                     <div className="absolute top-3 right-3 flex flex-col gap-1">
                       <img
-                        src={service.images[1].src}
-                        alt={service.images[1].alt}
+                        src={galleryImages[1].src}
+                        alt={galleryImages[1].alt}
                         className="w-16 h-16 object-cover rounded-md opacity-80 border border-white/10"
                       />
 
-                      {service.images[2] && (
+                      {galleryImages[2] && (
                         <img
-                          src={service.images[2].src}
-                          alt={service.images[2].alt}
+                          src={galleryImages[2].src}
+                          alt={galleryImages[2].alt}
                           className="w-16 h-16 object-cover rounded-md opacity-60 border border-white/10"
                         />
                       )}
@@ -131,10 +136,10 @@ const SecondaryServiceDetails = ({ service }) => {
                   )}
 
                   {/* MORE COUNT */}
-                  {service.images.length > 3 && (
+                  {galleryImages.length > 3 && (
                     <div className="absolute bottom-3 right-3">
                       <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
-                        + {service.images.length - 3} {tServices("more")}
+                        + {galleryImages.length - 3} {tServices("more")}
                       </span>
                     </div>
                   )}

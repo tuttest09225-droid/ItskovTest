@@ -12,42 +12,41 @@ const BeforeAfterToggle = ({
 }) => {
   const [showAfter, setShowAfter] = useState(true);
 
-  // support both naming conventions
   const beforeSrc = beforeImage || before;
+
   const afterSrc = afterImage || after;
 
   if (!beforeSrc || !afterSrc) {
     return (
-      <div className={`relative overflow-hidden rounded-2xl ${className}`}>
+      <div className="relative flex items-center justify-center max-w-[95vw] max-h-[75vh] overflow-hidden">
         <img
           src={afterSrc || beforeSrc}
-          alt={afterAlt || beforeAlt}
-          className="w-full h-full object-cover"
+          alt={afterAlt}
+          className="max-w-full max-h-[70vh] object-contain"
         />
       </div>
     );
   }
 
   return (
-    <div className={`relative overflow-hidden rounded-2xl ${className}`}>
-      {/* IMAGE */}
+    <div
+      className={`relative flex items-center justify-center overflow-hidden rounded-xl max-w-[90vw] max-h-[70vh] lg:max-h-[80vh] ${className}`}
+    >
       <img
         src={showAfter ? afterSrc : beforeSrc}
         alt={showAfter ? afterAlt : beforeAlt}
-        className="w-full h-full object-cover transition-opacity duration-300"
+        className="max-w-full max-h-[75vh] lg:max-h-[80vh] object-contain"
       />
 
-      {/* LABEL */}
       {label && (
-        <div className="absolute bottom-4 left-4 bg-black/70 text-white px-4 py-2 rounded-full text-sm backdrop-blur">
+        <div className=" absolute bottom-4 left-4 z-40 bg-black/70 text-white px-4 py-2 rounded-full text-sm">
           {label}
         </div>
       )}
 
-      {/* TOGGLE */}
       <div
         data-toggle-controls
-        className="absolute top-4 right-4 flex items-center bg-black/70 backdrop-blur rounded-full p-1 border border-white/10"
+        className=" absolute top-4 right-4 z-50 flex bg-black/70 backdrop-blur rounded-full p-1"
       >
         <button
           onTouchStart={(e) => e.stopPropagation()}

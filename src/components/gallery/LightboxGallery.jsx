@@ -96,15 +96,15 @@ const LightboxGallery = ({
 
   return (
     <motion.div
-  initial={{ opacity: 0, scale: 0.98 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.25, ease: "easeOut" }}
-      className="fixed inset-0 z-[999] bg-black/95 flex flex-col"
+      initial={{ opacity: 0, scale: 0.98 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.25, ease: "easeOut" }}
+      className="fixed inset-0 z-[999] bg-black/95"
       role="dialog"
       aria-modal="true"
     >
       {/* TOP BAR */}
-      <div className="flex items-center justify-between p-4 lg:p-6">
+      <div className="flex items-center justify-between p-2 lg:p-4">
         <div className="text-white/70 text-sm lg:text-base">
           {currentIndex + 1} / {images.length}
         </div>
@@ -136,7 +136,7 @@ const LightboxGallery = ({
 
         {/* MAIN IMAGE */}
         <div
-          className="relative z-20"
+          className="relative z-20 mt-10 mb-10 max-w-[95vw] max-h-[75vh] lg:max-h-[70vh] flex items-center justify-center"
           onClick={(e) => {
             // Ignore toggle buttons
             if (e.target.closest("button") || isSwiping.current) {
@@ -163,11 +163,16 @@ const LightboxGallery = ({
               />
             </div>
           ) : (
-            <img
-              src={current.src}
-              alt={current.alt}
-              className="max-w-full max-h-[75vh] lg:max-h-[82vh] object-contain lg:rounded-xl shadow-2xl"
-            />
+            <div className="relative">
+              <img
+                src={current.src}
+                alt={current.alt}
+                className="max-w-full max-h-[75vh] lg:max-h-[82vh] object-contain lg:rounded-xl shadow-2xl"
+              />
+              <div className=" absolute bottom-4 left-4 z-40 bg-black/70 text-white px-4 py-2 rounded-full text-sm">
+                {current.alt}
+              </div>
+            </div>
           )}
         </div>
 
