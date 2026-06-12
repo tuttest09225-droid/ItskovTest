@@ -22,7 +22,7 @@ const AboutUsSection = () => {
         <motion.img
           src="./about.avif"
           alt="About us"
-          className="w-screen md:w-1/2 max-h-[40vh] lg:max-h-[70vh] object-cover rounded-3xl shadow-xl border-4 border-secondary"
+          className="w-full md:w-1/2 max-h-[40vh] lg:max-h-[70vh] object-cover rounded-3xl shadow-xl border-4 border-secondary"
           variants={isDesktop ? heroDesktopVariants : heroMobileVariants}
           initial="hidden"
           whileInView="show"

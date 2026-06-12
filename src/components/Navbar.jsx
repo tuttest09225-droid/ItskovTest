@@ -69,7 +69,7 @@ const Navbar = () => {
           backdropFilter: scrollY > 50 ? "blur(8px)" : "blur(0px)",
         }}
         transition={{ duration: 0.3 }}
-        className="navbar justify-between bg-secondary/80"
+        className="navbar w-full justify-between bg-secondary/80"
       >
         {/* Logo with build-up animation */}
         <div className="navbar-start aspect-[3/1] md:max-w-[180px] lg:max-w-[240px] min-w-[120px]">
@@ -85,9 +85,7 @@ const Navbar = () => {
             />
           </Link>
         </div>
-        <div className="navbar-end px-1 lg:hidden">
-              <LanguageSelector/>
-        </div>
+
         {/* Desktop Nav Links */}
         <div className="navbar-end max-w-5xl hidden md:flex xl:me-20 2xl:me-40 font-pf">
           <motion.ul
@@ -125,14 +123,17 @@ const Navbar = () => {
                 </Link>
               </motion.li>
             ))}
-            <motion.li variants={mobileItemVariants} className="px-1 hidden lg:block">
-              <LanguageSelector/>
+            <motion.li
+              variants={mobileItemVariants}
+              className="px-1 hidden lg:block"
+            >
+              <LanguageSelector />
             </motion.li>
           </motion.ul>
         </div>
-
-        {/* Mobile burger */}
-        <div className="block md:hidden">
+        <div className="px-1 md:hidden">
+          <LanguageSelector />
+          {/* Mobile burger */}
           <button
             className="relative z-50 p-2 border border-primary-content rounded-lg"
             onClick={() => setIsOpen(!isOpen)}
@@ -199,7 +200,7 @@ const Navbar = () => {
                   animate="show"
                   exit="exit"
                   variants={menuVariants}
-                  className="menu absolute top-[100%] right-0 bg-secondary/90 text-primary z-50 w-screen border border-primary p-0"
+                  className="menu absolute top-[100%] left-0 bg-secondary/90 text-primary z-50 w-full border border-primary p-0"
                 >
                   {[
                     { path: "/", label: t("navbar.home") },
