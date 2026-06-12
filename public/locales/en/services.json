@@ -449,12 +449,12 @@
       "introTag": "Precision meets design",
       "introHook": "Every detail counts.",
       "overview": "High-quality tile installation for all interior and exterior spaces.",
-      "description":"Professional tile installation for walls and floors, delivered with precision, durability and attention to detail.",
+      "description": "Professional tile installation for walls and floors, delivered with precision, durability and attention to detail.",
       "text": "Tiles define the character of your space.",
       "emotionalHook": "Precise instalation and lasting craftsmanship in every tile, every surface and every detail.",
       "image": {
-        "src": "/services-floor-tiles.jpg",
-        "alt": "Tile installation overview"
+        "src": "/services/tiling/hero.jpeg",
+        "alt": "Tiling"
       },
       "steps": [
         "Surface preparation & leveling",
@@ -465,6 +465,34 @@
         "Walls & Floors",
         "Large Format Tiles",
         "Precision Finishing"
+      ],
+      "images": [
+        {
+          "src": "/services/tiling/4.jpeg",
+          "alt": "Tile installation 4"
+        },
+        {
+          "src": "/services/tiling/1.jpeg",
+          "alt": "Tile installation 1"
+        },
+        {
+          "src": "/services/tiling/2.jpeg",
+          "alt": "Tile installation 2"
+        },
+        {
+          "src": "/services/tiling/3.jpeg",
+          "alt": "Tile installation 3"
+        },
+        {
+          "before": "/services/tiling/5-bef.jpeg",
+          "after": "/services/tiling/5-aft.jpeg",
+          "alt": "Tile installation 5"
+        },
+        {
+          "before": "/services/tiling/6-bef.jpeg",
+          "after": "/services/tiling/6-aft.jpeg",
+          "alt": "Tile installation 6"
+        }
       ]
     },
     {
@@ -474,12 +502,12 @@
       "introTag": "Color changes everything",
       "introHook": "Color. Mood. Atmosphere.",
       "emotionalHook": "The finishing touch that gives every space it's character.",
-      "description":"Professional interior painting that delivers clean finishes, lasting durability and the right atmosphere for every space.",
+      "description": "Professional interior painting that delivers clean finishes, lasting durability and the right atmosphere for every space.",
       "overview": "Interior painting with clean execution and professional finishes.",
       "text": "A new color transforms everything.",
       "image": {
-        "src": "/services-painting.jpg",
-        "alt": "Painting services overview"
+        "src": "/services/painting/hero.jpeg",
+        "alt": "Painting"
       },
       "steps": [
         "Surface preparation & masking",
@@ -490,6 +518,35 @@
         "Color Selection",
         "Surface Preparation",
         "Lasting Finish"
+      ],
+      "images": [
+        {
+          "before": "/services/painting/1-bef.jpeg",
+          "after": "/services/painting/1-aft.jpeg",
+          "alt": "Painting 1 Comparison"
+        },
+        {
+          "before": "/services/painting/2-bef.jpeg",
+          "after": "/services/painting/2-aft.jpeg",
+          "alt": "Painting 2 Comparison"
+        },
+        {
+          "before": "/services/painting/3-bef.jpeg",
+          "after": "/services/painting/3-aft.jpeg",
+          "alt": "Painting 3 Comparison"
+        },
+        {
+          "src": "/services/painting/4.jpeg",
+          "alt": "Painting 4"
+        },
+        {
+          "src": "/services/painting/5.jpeg",
+          "alt": "Painting 5"
+        },
+        {
+          "src": "/services/painting/6.jpeg",
+          "alt": "Painting 6"
+        }
       ]
     },
     {
@@ -499,11 +556,11 @@
       "overview": "Professional plastering for smooth and durable walls.",
       "introHook": "Perfect surfaces start here",
       "emotionalHook": "Smooth, durable surfaces that last for years and lay the foundation of your dream home.",
-      "description":"Precision plastering for level walls, clean surfaces and long-lasting results.",
+      "description": "Precision plastering for level walls, clean surfaces and long-lasting results.",
       "text": "Strong walls begin with proper plastering.",
       "image": {
-        "src": "/services-plastering.png",
-        "alt": "Plastering work overview"
+        "src": "/services/plastering/hero.jpeg",
+        "alt": "Plastering"
       },
       "steps": [
         "Surface cleaning & preparation",
@@ -514,6 +571,25 @@
         "Wall Preparation",
         "Surface Leveling",
         "Smooth Finishing"
+      ],
+      "images": [
+        {
+          "src": "/services/plastering/1.jpeg",
+          "alt": "Plastering 1"
+        },
+        {
+          "before": "/services/tiling/2-bef.jpeg",
+          "after": "/services/tiling/2-aft.jpeg",
+          "alt": "Plastering 2 Comparison"
+        },
+        {
+          "src": "/services/plastering/3.jpeg",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4.jpeg",
+          "alt": "Plastering 4"
+        }
       ]
     },
     {
@@ -523,7 +599,7 @@
       "introTag": "Solid foundation for every floor",
       "introHook": "The foundation. No compromises.",
       "emotionalHook": "Evry floor begins with a level and strong foundation. And ends exatly as envisioned.",
-      "description":"Precision screed application and floor leveling for a stable foundation ready for any flooring system.",
+      "description": "Precision screed application and floor leveling for a stable foundation ready for any flooring system.",
       "overview": "Precision floor leveling and screed application.",
       "text": "A strong base ensures long-lasting floors.",
       "image": {

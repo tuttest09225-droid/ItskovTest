@@ -8,7 +8,7 @@
   "additionalServices": "Допълнителни услуги",
   "viewDetails": "Виж детайли",
   "hideDetails": "Скрий детайли",
-  "viewGallery": "Виж галерия",
+  "viewGallery": "Виж галерия", 
   "more": "още",
   "serviceList": [
     {
@@ -458,6 +458,34 @@
         "Стени и подове",
         "Голямоформатни плочки",
         "Прецизен завършек"
+      ],
+      "images": [
+        {
+          "src": "/services/tiling/4.jpeg",
+          "alt": "Tile installation 4"
+        },
+        {
+          "src": "/services/tiling/1.jpeg",
+          "alt": "Tile installation 1"
+        },
+        {
+          "src": "/services/tiling/2.jpeg",
+          "alt": "Tile installation 2"
+        },
+        {
+          "src": "/services/tiling/3.jpeg",
+          "alt": "Tile installation 3"
+        },
+        {
+          "before": "/services/tiling/5-bef.jpeg",
+          "after": "/services/tiling/5-aft.jpeg",
+          "alt": "Tile installation 5"
+        },
+        {
+          "before": "/services/tiling/6-bef.jpeg",
+          "after": "/services/tiling/6-aft.jpeg",
+          "alt": "Tile installation 6"
+        }
       ]
     },
     {
@@ -471,7 +499,7 @@
       "description": "Професионално интериорно боядисване с чисто изпълнение, дълготрайни резултати и атмосфера, съобразена с всяко помещение.",
       "text": "Нов цвят променя всичко.",
       "image": {
-        "src": "/services-painting.jpg",
+        "src": "/services/painting/hero.jpeg",
         "alt": "Боядисване - общ изглед"
       },
       "steps": [
@@ -483,6 +511,35 @@
         "Избор на цветове",
         "Подготовка на повърхностите",
         "Дълготраен завършек"
+      ],
+      "images": [
+        {
+          "before": "/services/tiling/1-bef.jpeg",
+          "after": "/services/tiling/1-aft.jpeg",
+          "alt": "Painting 1 Comparison"
+        },
+        {
+          "before": "/services/tiling/2-bef.jpeg",
+          "after": "/services/tiling/2-aft.jpeg",
+          "alt": "Painting 2 Comparison"
+        },
+        {
+          "before": "/services/tiling/3-bef.jpeg",
+          "after": "/services/tiling/3-aft.jpeg",
+          "alt": "Painting 3 Comparison"
+        },
+        {
+          "src": "/services/painting/4.jpeg",
+          "alt": "Painting 4"
+        },
+        {
+          "src": "/services/painting/5.jpeg",
+          "alt": "Painting 5"
+        },
+        {
+          "src": "/services/painting/6.jpeg",
+          "alt": "Painting 6"
+        }
       ]
     },
     {
@@ -496,7 +553,7 @@
       "overview": "Прецизна шпакловка за гладки стени, равни повърхности и дълготрайни резултати.",
       "text": "Здравите стени започват с правилна шпакловка.",
       "image": {
-        "src": "/services-plastering.png",
+        "src": "/services/plastering/hero.jpeg",
         "alt": "Шпакловка - общ изглед"
       },
       "steps": [
@@ -508,6 +565,25 @@
         "Подготовка на стените",
         "Изравняване на повърхностите",
         "Гладък завършек"
+      ],
+      "images": [
+        {
+          "src": "/services/plastering/1.jpeg",
+          "alt": "Plastering 1"
+        },
+        {
+          "before": "/services/tiling/2-bef.jpeg",
+          "after": "/services/tiling/2-aft.jpeg",
+          "alt": "Plastering 2 Comparison"
+        },
+        {
+          "src": "/services/plastering/3.jpeg",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4.jpeg",
+          "alt": "Plastering 4"
+        }
       ]
     },
     {
