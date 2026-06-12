@@ -1,16 +1,49 @@
-import React from "react";
+import React, { useRef } from "react";
 import { FiChevronDown } from "react-icons/fi";
 import { motion, AnimatePresence } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 import ServiceDetails from "./ServiceDetails";
 const ServiceRow = ({ service, isOpen, onToggle }) => {
+  const detailsRef = useRef(null);
+  const rowRef = useRef(null);
+
   const { t: tServices } = useTranslation("services");
+  const scrollToRow = () => {
+    if (!rowRef.current) return;
+
+    const y =
+      rowRef.current.getBoundingClientRect().top + window.pageYOffset - 96; // navbar offset
+
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+  };
+  const handleToggle = () => {
+  const opening = !isOpen;
+
+  onToggle();
+
+  if (opening) {
+    setTimeout(() => {
+      detailsRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 350);
+  } else {
+    scrollToRow();
+  }
+};
+
   return (
-    <div className="border-b border-neutral/10 py-4">
+    <div 
+    ref={rowRef}
+    className="border-b border-neutral/10 py-4">
       {/* MAIN ROW */}
       <div
-        onClick={onToggle}
+        onClick={handleToggle}
         className="hidden lg:grid lg:grid-cols-12 gap-10 items-center group"
       >
         {/* LEFT: TITLE BLOCK */}
@@ -86,7 +119,7 @@ const ServiceRow = ({ service, isOpen, onToggle }) => {
 
           {/* EXPAND BUTTON */}
           <button
-            onClick={onToggle}
+            onClick={handleToggle}
             className="flex flex-col items-center text-neutral group"
           >
             <FiChevronDown
@@ -103,7 +136,7 @@ const ServiceRow = ({ service, isOpen, onToggle }) => {
       </div>
 
       {/* MOBILE ROW */}
-      <div onClick={onToggle} className="lg:hidden py-4 space-y-4">
+      <div onClick={handleToggle} className="lg:hidden py-1 lg:py-4 space-y-4">
         <div className="relative h-[220px] overflow-hidden rounded-xl">
           <img
             src={service.image}
@@ -152,6 +185,7 @@ const ServiceRow = ({ service, isOpen, onToggle }) => {
       <AnimatePresence initial={false}>
         {isOpen && (
           <motion.div
+            ref={detailsRef}
             key="service-details"
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
@@ -160,9 +194,18 @@ const ServiceRow = ({ service, isOpen, onToggle }) => {
               duration: 0.35,
               ease: [0.4, 0, 0.2, 1],
             }}
-            className="overflow-hidden"
+            className="overflow-hidden scroll-mt-24"
           >
-            <ServiceDetails service={service} />
+            <ServiceDetails
+              service={service}
+              onClose={() => {
+                onToggle();
+
+                setTimeout(() => {
+                  scrollToRow();
+                }, 100);
+              }}
+            />
           </motion.div>
         )}
       </AnimatePresence>

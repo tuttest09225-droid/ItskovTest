@@ -20,7 +20,7 @@ const Hero = () => {
       <img
         src="/home-hero.jpg"
         alt="ITSKOV STROY — Renovation and Construction in Sofia"
-        fetchpriority="high"  
+        fetchPriority="high" 
         loading="eager"
         decoding="async"
         width="1920"

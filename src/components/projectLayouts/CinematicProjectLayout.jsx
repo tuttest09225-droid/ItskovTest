@@ -221,7 +221,7 @@ const CinematicProjectLayout = () => {
             {/* Left */}
             <div className="lg:col-span-4">
               <div className="sticky top-24">
-                <h2 className="text-3xl lg:text-4xl text-right font-semibold leading-tight font-pf">
+                <h2 className="text-3xl lg:text-4xl text-left font-semibold leading-tight font-pf">
                   {project.overview.title}
                 </h2>
               </div>

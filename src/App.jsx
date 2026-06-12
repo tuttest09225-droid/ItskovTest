@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router";
 
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
+import BackToTop from "./components/BackToTop.jsx";
 
 const Home = lazy(() => import("./pages/HomePage.jsx"));
 const ProjectDetails = lazy(() => import("./pages/ProjectDetailsPage.jsx"));
@@ -33,6 +34,8 @@ const App = () => {
             <Route path="*" element={<Error404 />} />
           </Routes>
         </Suspense>
+        <BackToTop />
+
       </main>
       <Footer />
     </div>

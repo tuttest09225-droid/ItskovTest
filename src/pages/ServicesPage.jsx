@@ -192,7 +192,7 @@ const Services = () => {
           <div className="flex justify-center gap-4 flex-wrap">
             <a
               href={`mailto:${t("contacts.email.value1")}${t("contacts.email.value2")}@gmail.com?subject=${encodeURIComponent(
-                t("cta.generecEmailSubject"),
+                t("cta.genericEmailSubject"),
               )}`}
               className="inline-flex items-center justify-center px-6 py-3 bg-neutral text-white text-lg rounded-full hover:bg-accent transition-all duration-300"
             >

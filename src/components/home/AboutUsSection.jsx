@@ -43,8 +43,8 @@ const AboutUsSection = () => {
           <h3 className="text-4xl lg:text-5xl font-bold text-neutral mb-6 font-pf">{t("about.intro.subtitle")}</h3>
           <ul className="space-y-2 text-lg font-ns">
             {[t("about.intro.points.1"), t("about.intro.points.2"), t("about.intro.points.3"), t("about.intro.points.4")].map((point, idx) => (
-              <li key={idx} className="flex items-center gap-2">
-                <GiCheckMark className="text-accent text-xl min-h-5 min-w-5 transition-colors hover:text-neutral hover:scale-120" />
+              <li key={idx} className="flex lg:items-center gap-2">
+                <GiCheckMark className="text-accent text-xl min-h-5 min-w-5 mt-1 lg:mt-0 transition-colors hover:text-neutral hover:scale-120" />
                 <span>{point}</span>
               </li>
             ))}

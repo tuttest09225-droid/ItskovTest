@@ -85,7 +85,9 @@ const Navbar = () => {
             />
           </Link>
         </div>
-
+        <div className="navbar-end px-1 lg:hidden">
+              <LanguageSelector/>
+        </div>
         {/* Desktop Nav Links */}
         <div className="navbar-end max-w-5xl hidden md:flex xl:me-20 2xl:me-40 font-pf">
           <motion.ul
@@ -123,7 +125,7 @@ const Navbar = () => {
                 </Link>
               </motion.li>
             ))}
-            <motion.li variants={mobileItemVariants} className="px-1">
+            <motion.li variants={mobileItemVariants} className="px-1 hidden lg:block">
               <LanguageSelector/>
             </motion.li>
           </motion.ul>
@@ -214,12 +216,6 @@ const Navbar = () => {
                       <Link to={path}>{label}</Link>
                     </motion.li>
                   ))}
-                  <motion.li
-                    variants={mobileItemVariants}
-                    className="border-b border-primary px-3 hover:bg-neutral hover:text-secondary"
-                  >
-                    <LanguageSelector />
-                  </motion.li>
                 </motion.ul>
               </>
             )}
