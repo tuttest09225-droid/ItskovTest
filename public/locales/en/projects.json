@@ -106,7 +106,11 @@
             },
             "overview": {
                 "title": "Renovation and Repainting of Ceilings and Columns in Shopping Mall",
-                "description": "We carried out a complete refresh of the interior spaces in a large shopping mall, focusing primarily on the ceilings and columns. The work included surface preparation through sanding and plastering, removal of old coatings, and application of high-quality, long-lasting paints. For the columns, we used wear-resistant coatings to ensure durability and easy maintenance, while the ceilings were painted with white dispersion paint to create a brighter and more spacious look. The project was completed within a short timeframe and with minimal disruption to the operation of the retail stores. The final result is a modern, clean, and fresh appearance that enhances the overall experience of visitors."
+                "paragraphs": [
+                    "Interior spaces in the shopping mall were refreshed through renovation and repainting works focused on ceilings and structural columns.",
+                    "The process included surface preparation, removal of old coatings, and application of durable paints suited for high-traffic commercial environments.",
+                    "Columns were treated with wear-resistant coatings, while ceilings were finished in white to improve brightness and overall spatial clarity. The work was completed with minimal impact on daily mall operations."
+                ]
             },
             "metrics": [
                 {
@@ -168,7 +172,7 @@
             "layout": "cinematic",
             "category": "commercial",
             "time": "5 Working Days",
-            "mainImage": "/projects/Parking_refurbished/IMG_5401.webp",
+            "mainImage": "/projects/Parking_refurbished/IMG_5401.jpeg",
             "hero": {
                 "title": "Parking Area Renovation",
                 "subtitle": "Maintenance & Renovation",
@@ -177,8 +181,12 @@
                 "location": "Sofia"
             },
             "overview": {
-                "title": "Large Scale Maintenance Across Active Commercial Areas",
-                "description": "This project included multiple maintenance and renovation activities across high-traffic commercial zones within an operational shopping mall environment. The work focused on restoring visual consistency, improving durability, and maintaining safe visitor access throughout all stages of execution."
+                "title": "Parking Level Refurbishment and Repainting Works",
+                "paragraphs": [
+                    "The underground parking level was refurbished and repainted to restore worn surfaces and improve overall visibility and safety across the facility.",
+                    "Work included durable industrial coatings and targeted repairs to areas affected by heavy daily vehicle traffic and long-term wear.",
+                    "The project was completed in phases while the parking remained operational, allowing continuous access throughout the entire process."
+                ]
             },
             "metrics": [
                 {
