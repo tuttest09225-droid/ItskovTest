@@ -2,10 +2,100 @@
     "title": "Explore Our Projects",
     "allProjects": [
         {
+            "slug": "mall-ongoing-maintenance",
+            "layout": "editorial",
+            "category": "commercial",
+            "stage": "Service",
+            "mainImage": "/projects/Mall_maintenance/main.webp",
+            "time": "Ongoing",
+            "hero": {
+                "title": "Ongoing Mall Maintenance & Repair",
+                "subtitle": "Continuous Maintenance, Repairs and Facility Improvements",
+                "type": "Commercial",
+                "year": "2026",
+                "location": "Sofia"
+            },
+            "overview": {
+                "title": "Ongoing Maintenance and Repair Works in Shopping Mall Environment",
+                "description": "This ongoing commercial maintenance program focuses on preserving and improving the condition of an active shopping mall. The works include regular repairs, surface restoration, repainting, ceiling maintenance, lighting area improvements, and general refurbishment activities. All works are carefully planned and executed in phases to ensure visitor safety, uninterrupted business operations, and minimal impact on tenants and customers."
+            },
+            "metrics": [
+                {
+                    "label": "Status",
+                    "value": "Ongoing"
+                },
+                {
+                    "label": "Business Disruption",
+                    "value": "Minimal"
+                },
+                {
+                    "label": "Scope",
+                    "value": "Maintenance & Repairs"
+                },
+                {
+                    "label": "Duration",
+                    "value": "2years+"
+                }
+            ],
+            "sections": [
+                {
+                    "title": "Assessment & Planning",
+                    "text": "Each maintenance cycle begins with inspection of existing conditions, identification of damaged areas, and planning of repair activities according to the mall's operational schedule."
+                },
+                {
+                    "title": "Repair & Restoration Works",
+                    "text": "The maintenance works include repairing damaged surfaces, repainting walls and ceilings, restoring high-traffic areas, and applying durable materials suitable for commercial environments."
+                },
+                {
+                    "title": "Working Around Daily Operations",
+                    "text": "Since the shopping mall remains fully operational, all activities are organized in controlled phases with safety measures and coordination to reduce disruption to visitors and stores."
+                },
+                {
+                    "title": "Long-Term Facility Improvement",
+                    "text": "Regular maintenance improves the appearance, durability, and functionality of the facility while preventing larger repair requirements in the future."
+                },
+                {
+                    "title": "Current Status",
+                    "text": "The project is ongoing, with continuous improvements carried out across different areas of the mall according to operational priorities."
+                }
+            ],
+            "tags": [
+                "Maintenance",
+                "Repairs",
+                "Commercial",
+                "Mall",
+                "Renovation"
+            ],
+            "galleryTitle": "Maintenance Progress Gallery",
+            "images": [
+                {
+                    "src": "/projects/Mall_maintenance/1.webp",
+                    "alt": "Mall maintenance works in progress"
+                },
+                {
+                    "src": "/projects/Mall_maintenance/2.webp",
+                    "alt": "Commercial repair works"
+                },
+                {
+                    "src": "/projects/Mall_maintenance/3.webp",
+                    "alt": "Mall interior restoration"
+                },
+                {
+                    "src": "/projects/Mall_maintenance/4.webp",
+                    "alt": "Ceiling and wall maintenance"
+                },
+                {
+                    "before": "/projects/Mall_maintenance/before.webp",
+                    "after": "/projects/Mall_maintenance/after.webp",
+                    "alt": "Mall repair before and after comparison"
+                }
+            ]
+        },
+        {
             "slug": "mall-project",
             "layout": "cinematic",
             "category": "commercial",
-            "mainImage": "/projects/Mall_project/1.png",
+            "mainImage": "/projects/Mall_project/1.webp",
             "time": "7 Working Days",
             "hero": {
                 "title": "Mall Interior Renovation",
@@ -43,34 +133,32 @@
                 "Interior",
                 "Mall"
             ],
-            "featuredImage": "/projects/Mall_project/4.png",
+            "featuredImage": "/projects/Mall_project/4.webp",
             "featuredImageAlt": "Mall project photo 4",
             "galleryTitle": "Ceiling & Column Restoration",
             "images": [
                 {
-                    "src": "/projects/Mall_project/1.png",
+                    "src": "/projects/Mall_project/1.webp",
                     "alt": "Mall project photo 1"
                 },
                 {
-                    "src": "/projects/Mall_project/2.png",
+                    "src": "/projects/Mall_project/2.webp",
                     "alt": "Mall project photo 2"
                 },
                 {
-                    "src": "/projects/Mall_project/3.png",
+                    "src": "/projects/Mall_project/3.webp",
                     "alt": "Mall project photo 3"
                 },
                 {
-                    "src": "/projects/Mall_project/4.png",
+                    "src": "/projects/Mall_project/4.webp",
                     "alt": "Mall project photo 4"
                 },
                 {
-                    "before": "/projects/Mall_project/5.png",
-                    "after": "/services-electrical.jpg",
+                    "src": "/projects/Mall_project/5.webp",
                     "alt": "Ceiling renovation comparison"
                 },
                 {
-                    "before": "/projects/Mall_project/6.png",
-                    "after": "/services-painting.jpg",
+                    "src": "/projects/Mall_project/6.webp",
                     "alt": "Column 2 comparison"
                 }
             ]
@@ -80,7 +168,7 @@
             "layout": "cinematic",
             "category": "commercial",
             "time": "5 Working Days",
-            "mainImage": "/projects/Parking_refurbished/IMG_5401.jpg",
+            "mainImage": "/projects/Parking_refurbished/IMG_5401.webp",
             "hero": {
                 "title": "Parking Area Renovation",
                 "subtitle": "Maintenance & Renovation",
@@ -137,40 +225,41 @@
             "galleryTitle": "Complete gallery",
             "images": [
                 {
-                    "before": "/projects/Parking_markings/parking-1-bef.jpeg",
-                    "after": "/projects/Parking_markings/parking-1-aft.jpeg",
+                    "before": "/projects/Parking_markings/parking-1-bef.webp",
+                    "after": "/projects/Parking_markings/parking-1-aft.webp",
                     "alt": "Ceiling renovation comparison"
                 },
                 {
-                    "before": "/projects/Parking_markings/parking-2-bef.jpeg",
-                    "after": "/projects/Parking_markings/parking-2-aft.jpeg",
+                    "before": "/projects/Parking_markings/parking-2-bef.webp",
+                    "after": "/projects/Parking_markings/parking-2-aft.webp",
                     "alt": "Ceiling renovation comparison"
                 },
                 {
-                    "before": "/projects/Parking_markings/parking-3-bef.jpeg",
-                    "after": "/projects/Parking_markings/parking-3-aft.jpeg",
+                    "before": "/projects/Parking_markings/parking-3-bef.webp",
+                    "after": "/projects/Parking_markings/parking-3-aft.webp",
                     "alt": "Ceiling renovation comparison"
                 },
                 {
-                    "src": "/projects/Parking_markings/parking-4.jpeg",
+                    "src": "/projects/Parking_markings/parking-4.webp",
                     "alt": "Mall project photo 4"
                 },
                 {
-                    "src": "/projects/Parking_markings/parking-5.jpeg",
+                    "src": "/projects/Parking_markings/parking-5.webp",
                     "alt": "Mall project photo 5"
                 }
             ]
         },
         {
+            "slug": "living_room",
+            "layout": "editorial",
+            "category": "residential",
+            "stage": "Stage",
             "hero": {
                 "title": "Living Room Renovation"
             },
-            "slug": "living_room",
             "overview": {
                 "description": "Complete renovation and modernization of a residential living room. The project included removal of old wallpaper, wall preparation and skim coating, repainting of walls and ceiling, and installation of decorative wall panels. The result is a brighter, more contemporary living space with improved aesthetics and a refined interior finish."
             },
-            "layout": "editorial",
-            "category": "residential",
             "tags": [
                 "Renovation",
                 "Painting",
@@ -179,7 +268,7 @@
             ],
             "timeTitle": "Time to complete:",
             "time": "10 Working Days",
-            "mainImage": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+            "mainImage": "/projects/Apartment_livingRoom/livingRoom-5.webp",
             "metrics": [
                 {
                     "label": "Area",
@@ -214,124 +303,123 @@
             ],
             "images": [
                 {
-                    "before": "/projects/Apartment_livingRoom/livingRoom-1-bef.jpeg",
-                    "after": "/projects/Apartment_livingRoom/livingRoom-1-aft.jpeg",
+                    "before": "/projects/Apartment_livingRoom/livingRoom-1-bef.webp",
+                    "after": "/projects/Apartment_livingRoom/livingRoom-1-aft.webp",
                     "alt": "Living room renovation comparison"
                 },
                 {
-                    "before": "/projects/Apartment_livingRoom/livingRoom-2-bef.jpeg",
-                    "after": "/projects/Apartment_livingRoom/livingRoom-2-aft.jpeg",
+                    "before": "/projects/Apartment_livingRoom/livingRoom-2-bef.webp",
+                    "after": "/projects/Apartment_livingRoom/livingRoom-2-aft.webp",
                     "alt": "Living room renovation comparison"
                 },
                 {
-                    "src": "/projects/Apartment_livingRoom/livingRoom-3.jpeg",
+                    "src": "/projects/Apartment_livingRoom/livingRoom-3.webp",
                     "alt": "Living room renovation progress"
                 },
                 {
-                    "src": "/projects/Apartment_livingRoom/livingRoom-4.jpeg",
+                    "src": "/projects/Apartment_livingRoom/livingRoom-4.webp",
                     "alt": "Finished living room interior"
                 },
                 {
-                    "src": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+                    "src": "/projects/Apartment_livingRoom/livingRoom-5.webp",
                     "alt": "Completed living room renovation"
                 }
             ]
         },
         {
-  "hero": {
-    "title": "Storefront Demolition & Interior Preparation"
-  },
-  "slug": "storefront-demolition",
-  "overview": {
-    "description": "Complete strip-out and preparation of a commercial storefront for a new tenant fit-out. The project involved full interior demolition, removal of outdated finishes, surface repairs, and preparation of the space for a complete redesign. Works were carried out with careful coordination to ensure safety and minimal impact on surrounding operational areas."
-  },
-  "layout": "compact",
-  "category": "commercial",
-  "tags": [
-    "Demolition",
-    "Fit-out Preparation",
-    "Interior",
-    "Storefront",
-    "Renovation"
-  ],
-  "timeTitle": "Time to complete:",
-  "time": "10 Working Days",
-  "mainImage": "/projects/Store_demo/storePreparation-1.jpeg",
-  "metrics": [
-    {
-      "label": "Area",
-      "value": "100 m²"
-    },
-    {
-      "label": "Duration",
-      "value": "10 Days"
-    },
-    {
-      "label": "Business Disruption",
-      "value": "None"
-    }
-  ],
-  "sections": [
-    {
-      "title": "Site Preparation",
-      "text": "The project began with a detailed site assessment, followed by the setup of safety barriers, dust control systems, and phased work zones. This ensured safe operation and uninterrupted access to adjacent commercial areas throughout the works."
-    },
-    {
-      "title": "Demolition & Strip-Out",
-      "text": "Existing interior elements, including damaged finishes, partitions, and outdated fixtures, were carefully removed. All materials were disposed of in compliance with waste management and site safety regulations."
-    },
-    {
-      "title": "Surface Restoration",
-      "text": "Walls, ceilings, and floors were repaired and prepared for new finishes. This included crack repairs, surface levelling, repainting, and replacement of damaged tiles using durable, commercial-grade materials."
-    },
-    {
-      "title": "Operational Coordination",
-      "text": "Works were executed in controlled phases to ensure minimal disruption to surrounding businesses and public access. Careful scheduling allowed the site to remain partially operational throughout the project."
-    },
-    {
-      "title": "Final Result",
-      "text": "The space was successfully transformed into a clean, neutral shell ready for the next tenant’s interior design. The upgraded surfaces and improved condition provided a strong foundation for a modern commercial fit-out."
-    }
-  ],
-  "images": [
-    {
-      "src": "/projects/Store_demo/storePreparation-1.jpeg",
-      "alt": "Storefront demolition site overview"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-2.jpeg",
-      "alt": "Interior strip-out in progress"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-3.jpeg",
-      "alt": "Removal of old interior finishes"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-4.jpeg",
-      "alt": "Site preparation and safety setup"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-5.jpeg",
-      "alt": "Surface repair and cleaning works"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-6.jpeg",
-      "alt": "Commercial renovation progress"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-7.jpeg",
-      "alt": "Pre-fit-out preparation stage"
-    },
-    {
-      "src": "/projects/Store_demo/storePreparation-8.jpeg",
-      "alt": "Final cleared space ready for tenant fit-out"
-    }
-  ]
-}
+            "hero": {
+                "title": "Storefront Demolition & Interior Preparation"
+            },
+            "slug": "storefront-demolition",
+            "overview": {
+                "description": "Complete strip-out and preparation of a commercial storefront for a new tenant fit-out. The project involved full interior demolition, removal of outdated finishes, surface repairs, and preparation of the space for a complete redesign. Works were carried out with careful coordination to ensure safety and minimal impact on surrounding operational areas."
+            },
+            "layout": "compact",
+            "category": "commercial",
+            "tags": [
+                "Demolition",
+                "Fit-out Preparation",
+                "Interior",
+                "Storefront",
+                "Renovation"
+            ],
+            "timeTitle": "Time to complete:",
+            "time": "10 Working Days",
+            "mainImage": "/projects/Store_demo/storePreparation-1.webp",
+            "metrics": [
+                {
+                    "label": "Area",
+                    "value": "100 m²"
+                },
+                {
+                    "label": "Duration",
+                    "value": "10 Days"
+                },
+                {
+                    "label": "Business Disruption",
+                    "value": "None"
+                }
+            ],
+            "sections": [
+                {
+                    "title": "Site Preparation",
+                    "text": "The project began with a detailed site assessment, followed by the setup of safety barriers, dust control systems, and phased work zones. This ensured safe operation and uninterrupted access to adjacent commercial areas throughout the works."
+                },
+                {
+                    "title": "Demolition & Strip-Out",
+                    "text": "Existing interior elements, including damaged finishes, partitions, and outdated fixtures, were carefully removed. All materials were disposed of in compliance with waste management and site safety regulations."
+                },
+                {
+                    "title": "Surface Restoration",
+                    "text": "Walls, ceilings, and floors were repaired and prepared for new finishes. This included crack repairs, surface levelling, repainting, and replacement of damaged tiles using durable, commercial-grade materials."
+                },
+                {
+                    "title": "Operational Coordination",
+                    "text": "Works were executed in controlled phases to ensure minimal disruption to surrounding businesses and public access. Careful scheduling allowed the site to remain partially operational throughout the project."
+                },
+                {
+                    "title": "Final Result",
+                    "text": "The space was successfully transformed into a clean, neutral shell ready for the next tenant’s interior design. The upgraded surfaces and improved condition provided a strong foundation for a modern commercial fit-out."
+                }
+            ],
+            "images": [
+                {
+                    "src": "/projects/Store_demo/storePreparation-1.webp",
+                    "alt": "Storefront demolition site overview"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-2.webp",
+                    "alt": "Interior strip-out in progress"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-3.webp",
+                    "alt": "Removal of old interior finishes"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-4.webp",
+                    "alt": "Site preparation and safety setup"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-5.webp",
+                    "alt": "Surface repair and cleaning works"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-6.webp",
+                    "alt": "Commercial renovation progress"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-7.webp",
+                    "alt": "Pre-fit-out preparation stage"
+                },
+                {
+                    "src": "/projects/Store_demo/storePreparation-8.webp",
+                    "alt": "Final cleared space ready for tenant fit-out"
+                }
+            ]
+        }
     ],
     "filteredByTag": "Showing results for - {{tag}}",
     "backToProjects": "Back to projects",
     "allProjectsBtn": "All projects",
-    "stage": "Stage",
     "gallery": "Gallery"
 }

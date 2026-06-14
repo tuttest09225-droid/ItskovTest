@@ -8,7 +8,7 @@
   "additionalServices": "Допълнителни услуги",
   "viewDetails": "Виж детайли",
   "hideDetails": "Скрий детайли",
-  "viewGallery": "Виж галерия", 
+  "viewGallery": "Виж галерия",
   "more": "още",
   "serviceList": [
     {
@@ -446,7 +446,7 @@
       "text": "Плочките определят характера на пространството.",
       "description": "Професионално полагане на стенни и подови плочки с прецизност, дълготрайност и внимание към всеки детайл.",
       "image": {
-        "src": "/services-floor-tiles.jpg",
+        "src": "/services/tiling/hero.webp",
         "alt": "Общ изглед на плочки"
       },
       "steps": [
@@ -459,31 +459,49 @@
         "Голямоформатни плочки",
         "Прецизен завършек"
       ],
-      "images": [
+      "thumbs": [
         {
-          "src": "/services/tiling/4.jpeg",
+          "src": "/services/tiling/4-thumb.webp",
           "alt": "Tile installation 4"
         },
         {
-          "src": "/services/tiling/1.jpeg",
+          "src": "/services/tiling/1-thumb.webp",
           "alt": "Tile installation 1"
         },
         {
-          "src": "/services/tiling/2.jpeg",
+          "src": "/services/tiling/2-thumb.webp",
           "alt": "Tile installation 2"
         },
         {
-          "src": "/services/tiling/3.jpeg",
+          "src": "/services/tiling/3-thumb.webp",
+          "alt": "Tile installation 3"
+        }
+      ],
+      "images": [
+        {
+          "src": "/services/tiling/4.webp",
+          "alt": "Tile installation 4"
+        },
+        {
+          "src": "/services/tiling/1.webp",
+          "alt": "Tile installation 1"
+        },
+        {
+          "src": "/services/tiling/2.webp",
+          "alt": "Tile installation 2"
+        },
+        {
+          "src": "/services/tiling/3.webp",
           "alt": "Tile installation 3"
         },
         {
-          "before": "/services/tiling/5-bef.jpeg",
-          "after": "/services/tiling/5-aft.jpeg",
+          "before": "/services/tiling/5-bef.webp",
+          "after": "/services/tiling/5-aft.webp",
           "alt": "Tile installation 5"
         },
         {
-          "before": "/services/tiling/6-bef.jpeg",
-          "after": "/services/tiling/6-aft.jpeg",
+          "before": "/services/tiling/6-bef.webp",
+          "after": "/services/tiling/6-aft.webp",
           "alt": "Tile installation 6"
         }
       ]
@@ -499,7 +517,7 @@
       "description": "Професионално интериорно боядисване с чисто изпълнение, дълготрайни резултати и атмосфера, съобразена с всяко помещение.",
       "text": "Нов цвят променя всичко.",
       "image": {
-        "src": "/services/painting/hero.jpeg",
+        "src": "/services/painting/hero.webp",
         "alt": "Боядисване - общ изглед"
       },
       "steps": [
@@ -512,32 +530,50 @@
         "Подготовка на повърхностите",
         "Дълготраен завършек"
       ],
+      "thumbs": [
+        {
+          "src": "/services/painting/1-aft_thumb.webp",
+          "alt": "Painting 1"
+        },
+        {
+          "src": "/services/painting/2-aft_thumb.webp",
+          "alt": "Painting 2"
+        },
+        {
+          "src": "/services/painting/3-aft_thumb.webp",
+          "alt": "Painting 3"
+        },
+        {
+          "src": "/services/painting/4-aft_thumb.webp",
+          "alt": "Painting 4"
+        }
+      ],
       "images": [
         {
-          "before": "/services/tiling/1-bef.jpeg",
-          "after": "/services/tiling/1-aft.jpeg",
+          "before": "/services/painting/1-bef.webp",
+          "after": "/services/painting/1-aft.webp",
           "alt": "Painting 1 Comparison"
         },
         {
-          "before": "/services/tiling/2-bef.jpeg",
-          "after": "/services/tiling/2-aft.jpeg",
+          "before": "/services/painting/2-bef.webp",
+          "after": "/services/painting/2-aft.webp",
           "alt": "Painting 2 Comparison"
         },
         {
-          "before": "/services/tiling/3-bef.jpeg",
-          "after": "/services/tiling/3-aft.jpeg",
+          "before": "/services/painting/3-bef.webp",
+          "after": "/services/painting/3-aft.webp",
           "alt": "Painting 3 Comparison"
         },
         {
-          "src": "/services/painting/4.jpeg",
+          "src": "/services/painting/4.webp",
           "alt": "Painting 4"
         },
         {
-          "src": "/services/painting/5.jpeg",
+          "src": "/services/painting/5.webp",
           "alt": "Painting 5"
         },
         {
-          "src": "/services/painting/6.jpeg",
+          "src": "/services/painting/6.webp",
           "alt": "Painting 6"
         }
       ]
@@ -553,7 +589,7 @@
       "overview": "Прецизна шпакловка за гладки стени, равни повърхности и дълготрайни резултати.",
       "text": "Здравите стени започват с правилна шпакловка.",
       "image": {
-        "src": "/services/plastering/hero.jpeg",
+        "src": "/services/plastering/hero.webp",
         "alt": "Шпакловка - общ изглед"
       },
       "steps": [
@@ -566,22 +602,40 @@
         "Изравняване на повърхностите",
         "Гладък завършек"
       ],
-      "images": [
+      "thumbs": [
         {
-          "src": "/services/plastering/1.jpeg",
+          "src": "/services/plastering/1_thumb.webp",
           "alt": "Plastering 1"
         },
         {
-          "before": "/services/tiling/2-bef.jpeg",
-          "after": "/services/tiling/2-aft.jpeg",
-          "alt": "Plastering 2 Comparison"
+          "src": "/services/plastering/2-aft_thumb.webp",
+          "alt": "Plastering 2"
         },
         {
-          "src": "/services/plastering/3.jpeg",
+          "src": "/services/plastering/3_thumb.webp",
           "alt": "Plastering 3"
         },
         {
-          "src": "/services/plastering/4.jpeg",
+          "src": "/services/plastering/4_thumb.webp",
+          "alt": "Plastering 4"
+        }
+      ],
+      "images": [
+        {
+          "src": "/services/plastering/1.webp",
+          "alt": "Plastering 1"
+        },
+        {
+          "before": "/services/tiling/2-bef.webp",
+          "after": "/services/tiling/2-aft.webp",
+          "alt": "Plastering 2 Comparison"
+        },
+        {
+          "src": "/services/plastering/3.webp",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4.webp",
           "alt": "Plastering 4"
         }
       ]

@@ -453,7 +453,7 @@
       "text": "Tiles define the character of your space.",
       "emotionalHook": "Precise instalation and lasting craftsmanship in every tile, every surface and every detail.",
       "image": {
-        "src": "/services/tiling/hero.jpeg",
+        "src": "/services/tiling/hero.webp",
         "alt": "Tiling"
       },
       "steps": [
@@ -466,31 +466,49 @@
         "Large Format Tiles",
         "Precision Finishing"
       ],
-      "images": [
+      "thumbs": [
         {
-          "src": "/services/tiling/4.jpeg",
+          "src": "/services/tiling/4-thumb.webp",
           "alt": "Tile installation 4"
         },
         {
-          "src": "/services/tiling/1.jpeg",
+          "src": "/services/tiling/1-thumb.webp",
           "alt": "Tile installation 1"
         },
         {
-          "src": "/services/tiling/2.jpeg",
+          "src": "/services/tiling/2-thumb.webp",
           "alt": "Tile installation 2"
         },
         {
-          "src": "/services/tiling/3.jpeg",
+          "src": "/services/tiling/3-thumb.webp",
+          "alt": "Tile installation 3"
+        }
+      ],
+      "images": [
+        {
+          "src": "/services/tiling/4.webp",
+          "alt": "Tile installation 4"
+        },
+        {
+          "src": "/services/tiling/1.webp",
+          "alt": "Tile installation 1"
+        },
+        {
+          "src": "/services/tiling/2.webp",
+          "alt": "Tile installation 2"
+        },
+        {
+          "src": "/services/tiling/3.webp",
           "alt": "Tile installation 3"
         },
         {
-          "before": "/services/tiling/5-bef.jpeg",
-          "after": "/services/tiling/5-aft.jpeg",
+          "before": "/services/tiling/5-bef.webp",
+          "after": "/services/tiling/5-aft.webp",
           "alt": "Tile installation 5"
         },
         {
-          "before": "/services/tiling/6-bef.jpeg",
-          "after": "/services/tiling/6-aft.jpeg",
+          "before": "/services/tiling/6-bef.webp",
+          "after": "/services/tiling/6-aft.webp",
           "alt": "Tile installation 6"
         }
       ]
@@ -506,7 +524,7 @@
       "overview": "Interior painting with clean execution and professional finishes.",
       "text": "A new color transforms everything.",
       "image": {
-        "src": "/services/painting/hero.jpeg",
+        "src": "/services/painting/hero.webp",
         "alt": "Painting"
       },
       "steps": [
@@ -519,32 +537,50 @@
         "Surface Preparation",
         "Lasting Finish"
       ],
+      "thumbs": [
+        {
+          "src": "/services/painting/1-aft_thumb.webp",
+          "alt": "Painting 1"
+        },
+        {
+          "src": "/services/painting/2-aft_thumb.webp",
+          "alt": "Painting 2"
+        },
+        {
+          "src": "/services/painting/3-aft_thumb.webp",
+          "alt": "Painting 3"
+        },
+        {
+          "src": "/services/painting/4-aft_thumb.webp",
+          "alt": "Painting 4"
+        }
+      ],
       "images": [
         {
-          "before": "/services/painting/1-bef.jpeg",
-          "after": "/services/painting/1-aft.jpeg",
+          "before": "/services/painting/1-bef.webp",
+          "after": "/services/painting/1-aft.webp",
           "alt": "Painting 1 Comparison"
         },
         {
-          "before": "/services/painting/2-bef.jpeg",
-          "after": "/services/painting/2-aft.jpeg",
+          "before": "/services/painting/2-bef.webp",
+          "after": "/services/painting/2-aft.webp",
           "alt": "Painting 2 Comparison"
         },
         {
-          "before": "/services/painting/3-bef.jpeg",
-          "after": "/services/painting/3-aft.jpeg",
+          "before": "/services/painting/3-bef.webp",
+          "after": "/services/painting/3-aft.webp",
           "alt": "Painting 3 Comparison"
         },
         {
-          "src": "/services/painting/4.jpeg",
+          "src": "/services/painting/4.webp",
           "alt": "Painting 4"
         },
         {
-          "src": "/services/painting/5.jpeg",
+          "src": "/services/painting/5.webp",
           "alt": "Painting 5"
         },
         {
-          "src": "/services/painting/6.jpeg",
+          "src": "/services/painting/6.webp",
           "alt": "Painting 6"
         }
       ]
@@ -559,7 +595,7 @@
       "description": "Precision plastering for level walls, clean surfaces and long-lasting results.",
       "text": "Strong walls begin with proper plastering.",
       "image": {
-        "src": "/services/plastering/hero.jpeg",
+        "src": "/services/plastering/hero.webp",
         "alt": "Plastering"
       },
       "steps": [
@@ -572,22 +608,40 @@
         "Surface Leveling",
         "Smooth Finishing"
       ],
-      "images": [
+      "thumbs": [
         {
-          "src": "/services/plastering/1.jpeg",
+          "src": "/services/plastering/1_thumb.webp",
           "alt": "Plastering 1"
         },
         {
-          "before": "/services/tiling/2-bef.jpeg",
-          "after": "/services/tiling/2-aft.jpeg",
-          "alt": "Plastering 2 Comparison"
+          "src": "/services/plastering/2-aft_thumb.webp",
+          "alt": "Plastering 2"
         },
         {
-          "src": "/services/plastering/3.jpeg",
+          "src": "/services/plastering/3_thumb.webp",
           "alt": "Plastering 3"
         },
         {
-          "src": "/services/plastering/4.jpeg",
+          "src": "/services/plastering/4_thumb.webp",
+          "alt": "Plastering 4"
+        }
+      ],
+      "images": [
+        {
+          "src": "/services/plastering/1.webp",
+          "alt": "Plastering 1"
+        },
+        {
+          "before": "/services/tiling/2-bef.webp",
+          "after": "/services/tiling/2-aft.webp",
+          "alt": "Plastering 2 Comparison"
+        },
+        {
+          "src": "/services/plastering/3.webp",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4.webp",
           "alt": "Plastering 4"
         }
       ]

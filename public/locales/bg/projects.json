@@ -5,7 +5,7 @@
       "slug": "mall-project",
       "layout": "cinematic",
       "category": "commercial",
-      "mainImage": "/projects/Mall_project/1.png",
+      "mainImage": "/projects/Mall_project/1.webp",
       "time": "7 работни дни",
       "hero": {
         "title": "Реновация на търговски център",
@@ -43,34 +43,34 @@
         "Интериор",
         "Мол"
       ],
-      "featuredImage": "/projects/Mall_project/4.png",
+      "featuredImage": "/projects/Mall_project/4.webp",
       "featuredImageAlt": "Снимка от проекта в търговски център 4",
       "galleryTitle": "Реставрация на тавани и колони",
       "images": [
         {
-          "src": "/projects/Mall_project/1.png",
+          "src": "/projects/Mall_project/1.webp",
           "alt": "Снимка от проекта 1"
         },
         {
-          "src": "/projects/Mall_project/2.png",
+          "src": "/projects/Mall_project/2.webp",
           "alt": "Снимка от проекта 2"
         },
         {
-          "src": "/projects/Mall_project/3.png",
+          "src": "/projects/Mall_project/3.webp",
           "alt": "Снимка от проекта 3"
         },
         {
-          "src": "/projects/Mall_project/4.png",
+          "src": "/projects/Mall_project/4.webp",
           "alt": "Снимка от проекта 4"
         },
         {
-          "before": "/projects/Mall_project/5.png",
-          "after": "/services-electrical.jpg",
+          "before": "/projects/Mall_project/5.webp",
+          "after": "/services-electrical.webp",
           "alt": "Сравнение при реновация на таван"
         },
         {
-          "before": "/projects/Mall_project/6.png",
-          "after": "/services-painting.jpg",
+          "before": "/projects/Mall_project/6.webp",
+          "after": "/services-painting.webp",
           "alt": "Сравнение на колона"
         }
       ]
@@ -80,7 +80,7 @@
       "layout": "cinematic",
       "category": "commercial",
       "time": "5 работни дни",
-      "mainImage": "/projects/Parking_refurbished/IMG_5401.jpg",
+      "mainImage": "/projects/Parking_refurbished/IMG_5401.webp",
       "hero": {
         "title": "Реновация на паркинг зона",
         "subtitle": "Поддръжка и реновация",
@@ -137,40 +137,42 @@
       "galleryTitle": "Пълна галерия",
       "images": [
         {
-          "before": "/projects/Parking_markings/parking-1-bef.jpeg",
-          "after": "/projects/Parking_markings/parking-1-aft.jpeg",
+          "before": "/projects/Parking_markings/parking-1-bef.webp",
+          "after": "/projects/Parking_markings/parking-1-aft.webp",
           "alt": "Сравнение при реновация на таван"
         },
         {
-          "before": "/projects/Parking_markings/parking-2-bef.jpeg",
-          "after": "/projects/Parking_markings/parking-2-aft.jpeg",
+          "before": "/projects/Parking_markings/parking-2-bef.webp",
+          "after": "/projects/Parking_markings/parking-2-aft.webp",
           "alt": "Сравнение при реновация"
         },
         {
-          "before": "/projects/Parking_markings/parking-3-bef.jpeg",
-          "after": "/projects/Parking_markings/parking-3-aft.jpeg",
+          "before": "/projects/Parking_markings/parking-3-bef.webp",
+          "after": "/projects/Parking_markings/parking-3-aft.webp",
           "alt": "Сравнение при реновация"
         },
         {
-          "src": "/projects/Parking_markings/parking-4.jpeg",
+          "src": "/projects/Parking_markings/parking-4.webp",
           "alt": "Снимка от проекта 4"
         },
         {
-          "src": "/projects/Parking_markings/parking-5.jpeg",
+          "src": "/projects/Parking_markings/parking-5.webp",
           "alt": "Снимка от проекта 5"
         }
       ]
     },
     {
+      "slug": "living_room",
+      "layout": "editorial",
+      "category": "residential",
+      "stage": "Етап",
       "hero": {
         "title": "Реновация на хол"
       },
-      "slug": "living_room",
       "overview": {
         "description": "Цялостна реновация и модернизация на жилищен хол. Проектът включваше премахване на стари тапети, подготовка и шпакловане на стените, боядисване на стени и таван, както и монтаж на декоративни стенни панели. Резултатът е по-светло, по-съвременно жилищно пространство с подобрена естетика и завършена интериорна визия."
       },
-      "layout": "editorial",
-      "category": "residential",
+
       "tags": [
         "Реновация",
         "Боядисване",
@@ -179,7 +181,7 @@
       ],
       "timeTitle": "Време за изпълнение:",
       "time": "10 работни дни",
-      "mainImage": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+      "mainImage": "/projects/Apartment_livingRoom/livingRoom-5.webp",
       "metrics": [
         {
           "label": "Площ",
@@ -214,39 +216,39 @@
       ],
       "images": [
         {
-          "before": "/projects/Apartment_livingRoom/livingRoom-1-bef.jpeg",
-          "after": "/projects/Apartment_livingRoom/livingRoom-1-aft.jpeg",
+          "before": "/projects/Apartment_livingRoom/livingRoom-1-bef.webp",
+          "after": "/projects/Apartment_livingRoom/livingRoom-1-aft.webp",
           "alt": "Сравнение на реновация на хол"
         },
         {
-          "before": "/projects/Apartment_livingRoom/livingRoom-2-bef.jpeg",
-          "after": "/projects/Apartment_livingRoom/livingRoom-2-aft.jpeg",
+          "before": "/projects/Apartment_livingRoom/livingRoom-2-bef.webp",
+          "after": "/projects/Apartment_livingRoom/livingRoom-2-aft.webp",
           "alt": "Сравнение на реновация на хол"
         },
         {
-          "src": "/projects/Apartment_livingRoom/livingRoom-3.jpeg",
+          "src": "/projects/Apartment_livingRoom/livingRoom-3.webp",
           "alt": "Напредък по проекта"
         },
         {
-          "src": "/projects/Apartment_livingRoom/livingRoom-4.jpeg",
+          "src": "/projects/Apartment_livingRoom/livingRoom-4.webp",
           "alt": "Завършен интериор"
         },
         {
-          "src": "/projects/Apartment_livingRoom/livingRoom-5.jpeg",
+          "src": "/projects/Apartment_livingRoom/livingRoom-5.webp",
           "alt": "Крайна реновация на хол"
         }
       ]
     },
     {
+      "slug": "storefront-demolition",
+      "layout": "compact",
+      "category": "commercial",
       "hero": {
         "title": "Демонтаж на витрина и подготовка на интериор"
       },
-      "slug": "storefront-demolition",
       "overview": {
         "description": "Цялостно демонтиране и подготовка на търговско помещение за нов наемател. Проектът включваше пълно вътрешно разрушаване, премахване на остарели покрития, ремонт на повърхности и подготовка на пространството за нов интериорен дизайн. Работата беше извършена при стриктна координация за осигуряване на безопасност и минимално въздействие върху съседните работещи зони."
       },
-      "layout": "compact",
-      "category": "commercial",
       "tags": [
         "Демонтаж",
         "Подготовка за интериор",
@@ -256,7 +258,7 @@
       ],
       "timeTitle": "Време за изпълнение:",
       "time": "10 работни дни",
-      "mainImage": "/projects/Store_demo/storePreparation-1.jpeg",
+      "mainImage": "/projects/Store_demo/storePreparation-1.webp",
       "metrics": [
         {
           "label": "Площ",
@@ -295,35 +297,35 @@
       ],
       "images": [
         {
-          "src": "/projects/Store_demo/storePreparation-1.jpeg",
+          "src": "/projects/Store_demo/storePreparation-1.webp",
           "alt": "Общ изглед на демонтаж на витрина"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-2.jpeg",
+          "src": "/projects/Store_demo/storePreparation-2.webp",
           "alt": "Демонтаж на интериор"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-3.jpeg",
+          "src": "/projects/Store_demo/storePreparation-3.webp",
           "alt": "Премахване на стари покрития"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-4.jpeg",
+          "src": "/projects/Store_demo/storePreparation-4.webp",
           "alt": "Подготовка на обекта"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-5.jpeg",
+          "src": "/projects/Store_demo/storePreparation-5.webp",
           "alt": "Ремонт на повърхности"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-6.jpeg",
+          "src": "/projects/Store_demo/storePreparation-6.webp",
           "alt": "Напредък по проекта"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-7.jpeg",
+          "src": "/projects/Store_demo/storePreparation-7.webp",
           "alt": "Подготовка преди довършителни работи"
         },
         {
-          "src": "/projects/Store_demo/storePreparation-8.jpeg",
+          "src": "/projects/Store_demo/storePreparation-8.webp",
           "alt": "Готово пространство за нов наемател"
         }
       ]
@@ -332,6 +334,5 @@
   "filteredByTag": "Показване на резултати за - {{tag}}",
   "backToProjects": "Назад към проекти",
   "allProjectsBtn": "Всички проекти",
-  "stage": "Етап",
   "gallery": "Галерия"
 }
