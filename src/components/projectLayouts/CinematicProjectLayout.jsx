@@ -328,7 +328,7 @@ const CinematicProjectLayout = () => {
                   <div className="relative z-0">
                     <img
                       src={img.after || img.src}
-                      className="w-full max-h-[60vh] object-cover rounded-xl"
+                      className="w-full max-h-full object-cover rounded-xl"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-500" />
                   </div>

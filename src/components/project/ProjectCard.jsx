@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import TagButton from "./ProjectTag.jsx";
 
 const ProjectCard = ({ project, onTagClick, tagFilter }) => (
+  
   <div>
     <Link
       to={`/projects/${project.slug}`}
@@ -31,7 +32,7 @@ const ProjectCard = ({ project, onTagClick, tagFilter }) => (
       >
         {project.tags.slice(0, 5).map((tag, i) => (
           <TagButton
-            key={i}
+            key={tag}
             tag={tag}
             active={tag === tagFilter}
             onClick={(clickedTag) => onTagClick(clickedTag)}

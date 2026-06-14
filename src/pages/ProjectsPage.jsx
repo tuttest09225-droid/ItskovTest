@@ -35,11 +35,9 @@ const ProjectsPage = () => {
     location.state?.selectedTag || null,
   );
   useEffect(() => {
-    if (location.state?.selectedTag) {
-      setTagFilter(location.state.selectedTag);
-      setCurrentPage(0);
-    }
-  }, [location.state]);
+    setTagFilter(location.state?.selectedTag || null);
+    setCurrentPage(0);
+  }, [location.state?.selectedTag]);
   const [currentPage, setCurrentPage] = useState(0);
 
   const projectsPerPage = 6;

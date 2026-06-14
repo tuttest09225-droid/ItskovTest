@@ -139,7 +139,7 @@ const EditorialProjectLayout = ({ project }) => {
                 <div className="lg:col-span-4">
                   <div className="lg:sticky lg:top-32">
                     <p className="text-sm uppercase tracking-[0.25em] text-neutral/40 mb-4">
-                      {tProject("stage")} {index + 1}
+                      {project.stage} {index + 1}
                     </p>
                     <h2 className="text-3xl lg:text-4xl font-bold leading-tight font-pf">
                       {section.title}

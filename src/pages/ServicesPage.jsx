@@ -97,7 +97,7 @@ const Services = () => {
 
       {/* PRIMARY */}
       <section className="max-w-7xl mx-auto px-2 lg:px-6 py-6 space-y-4">
-        {primaryServices.map((service) => (
+        {primaryServices.map((service) => ( 
           <ServiceRow
             key={service.title}
             service={service}
