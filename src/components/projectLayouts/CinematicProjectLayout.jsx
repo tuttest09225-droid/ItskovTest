@@ -14,7 +14,7 @@ import LightboxGallery from "../gallery/LightboxGallery";
 
 const CinematicProjectLayout = () => {
   const { t, i18n } = useTranslation();
-  const {t: tProject} = useTranslation("projects");
+  const { t: tProject } = useTranslation("projects");
 
   const { slug } = useParams();
 
@@ -216,22 +216,22 @@ const CinematicProjectLayout = () => {
           </div>
         </section>
         {/* PROJECT OVERVIEW */}
-        <section className="w-full lg:max-w-[90vw] mx-auto px-6 lg:px-12 py-6 lg:py-20">
+        <section className="w-full md:max-w-[80vw] lg:max-w-[90vw] mx-auto px-6 lg:px-12 py-6 lg:py-20">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 justify-items-center">
             {/* Left */}
             <div className="lg:col-span-4">
               <div className="sticky top-24">
-                <h2 className="text-3xl lg:text-4xl text-left font-semibold leading-tight font-pf">
+                <h2 className="text-3xl lg:text-4xl text-center lg:text-left  font-semibold leading-tight font-pf">
                   {project.overview.title}
                 </h2>
               </div>
             </div>
 
             {/* Right */}
-            <div className="lg:col-span-8">
-              <p className="text-lg lg:text-xl text-center leading-relaxed text-neutral/80 font-ns max-w-4xl">
-                {project.overview.description}
-              </p>
+            <div className="lg:col-span-8 space-y-6 text-lg lg:text-xl leading-relaxed text-neutral/80 font-ns max-w-4xl">
+              {project.overview.paragraphs?.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             </div>
           </div>
         </section>
@@ -337,7 +337,7 @@ const CinematicProjectLayout = () => {
             })}
           </div>
         </section>
-            
+
         {/* CTA */}
         <section className="border-t border-neutral/10">
           <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 lg:py-28">
