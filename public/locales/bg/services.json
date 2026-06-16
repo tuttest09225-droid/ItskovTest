@@ -251,6 +251,16 @@
             "Диагностика",
             "Ремонти",
             "Проверка"
+          ],
+          "images": [
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 1"
+            },
+            {
+              "src": "/services-complete.jpg",
+              "alt": "Diagnostics 2"
+            }
           ]
         }
       ]

@@ -65,6 +65,7 @@
   },
   "navbar": {
     "logo": "/logo_bg_nobg.png",
+    "logo2": "/logo_icon_nobg.png",
     "home": "Начало",
     "about": "За нас",
     "projects": "Проекти",

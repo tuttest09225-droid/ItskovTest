@@ -65,6 +65,7 @@
   },
   "navbar": {
     "logo": "/logo_en_nobg.png",
+    "logo2": "/logo_icon_nobg.png",
     "home": "Home",
     "about": "About Us",
     "projects": "Projects",
