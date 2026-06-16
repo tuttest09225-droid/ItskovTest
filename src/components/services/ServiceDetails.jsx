@@ -43,11 +43,12 @@ const ServiceDetails = ({ service, onClose }) => {
       {/* MOBILE CLOSE BUTTON */}
       <button
         onClick={onClose}
-        className="fixed bottom-20 right-4 z-[90] bg-neutral text-white p-3 rounded-full shadow-xl"
+        className="fixed bottom-16 right-2 z-[90] bg-neutral/60 hover:bg-accent/80 text-white p-3 rounded-full shadow-xl"
       >
         <FiX size={22} />
-{/*         <span>{tServices("hideDetails")}</span>
- */}      </button>
+        {/*         <span>{tServices("hideDetails")}</span>
+         */}{" "}
+      </button>
       <div className="lg:pl-6 pt-4 lg:pt-12">
         {/* SUB SERVICES */}
         <motion.div

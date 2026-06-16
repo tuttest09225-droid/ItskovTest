@@ -19,11 +19,11 @@ const ProjectCard = ({ project, onTagClick, tagFilter }) => (
       <Link
         to={`/projects/${project.slug}`}
       >
-        <h3 className="text-2xl indent-2 font-pf font-semibold">
+        <h3 className="text-2xl font-pf font-semibold">
           {project.hero.title}
         </h3>
 
-        <p className="text-sm text-gray-600">{project.time}</p>
+        <p className="text-sm indent-2 mt-1 text-gray-600">{project.time}</p>
       </Link>
 
       <div

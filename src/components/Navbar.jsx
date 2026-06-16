@@ -131,7 +131,7 @@ const Navbar = () => {
             </motion.li>
           </motion.ul>
         </div>
-        <div className="px-1 md:hidden">
+        <div className="px-1 gap-1 md:hidden">
           <LanguageSelector />
           {/* Mobile burger */}
           <button
