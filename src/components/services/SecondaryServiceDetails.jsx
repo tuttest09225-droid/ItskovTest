@@ -17,6 +17,11 @@ const SecondaryServiceDetails = ({ service }) => {
     src: img.src || img.after,
   }));
 
+  const galleryThumbs = service.thumbs?.map((img) => ({
+    ...img,
+    src: img.src,
+  }));
+
   const openGallery = (images, index = 0) => {
     setActiveImages(images);
     setInitialIndex(index);
@@ -90,7 +95,7 @@ const SecondaryServiceDetails = ({ service }) => {
 
           {/* RIGHT: GALLERY */}
           <div className="lg:col-span-5">
-            {galleryImages?.length > 0 && (
+            {galleryImages.length > 0 && (
               <div className="flex justify-end">
                 <div
                   onClick={() => openGallery(galleryImages, 0)}
@@ -103,8 +108,8 @@ const SecondaryServiceDetails = ({ service }) => {
                   {/* PRIMARY IMAGE */}
                   {galleryImages[0] && (
                     <img
-                      src={galleryImages[0].src}
-                      alt={galleryImages[0].alt}
+                      src={galleryImages[0].src || galleryThumbs[0].src}
+                      alt={galleryImages[0].alt || galleryThumbs[0].alt}
                       className="
                         absolute inset-0 w-full h-full object-cover
                         scale-105 group-hover:scale-110
@@ -120,15 +125,15 @@ const SecondaryServiceDetails = ({ service }) => {
                   {galleryImages[1] && (
                     <div className="absolute top-3 right-3 flex flex-col gap-1">
                       <img
-                        src={galleryImages[1].src}
-                        alt={galleryImages[1].alt}
+                        src={galleryThumbs[1].src || galleryImages[1].src }
+                        alt={galleryThumbs[1].alt || galleryImages[1].alt}
                         className="w-16 h-16 object-cover rounded-md opacity-80 border border-white/10"
                       />
 
                       {galleryImages[2] && (
                         <img
-                          src={galleryImages[2].src}
-                          alt={galleryImages[2].alt}
+                          src={galleryThumbs[2].src || galleryImages[2].src}
+                          alt={galleryThumbs[2].alt || galleryImages[2].alt}
                           className="w-16 h-16 object-cover rounded-md opacity-60 border border-white/10"
                         />
                       )}

@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { IoArrowBackSharp } from "react-icons/io5";
+
+import { motion } from "framer-motion";
 
 import LightboxImage from "../gallery/LightboxImage";
 import LightboxGallery from "../gallery/LightboxGallery";
@@ -16,7 +18,26 @@ const EditorialProjectLayout = ({ project }) => {
   const [galleryOpen, setGalleryOpen] = useState(false);
   const [galleryIndex, setGalleryIndex] = useState(0);
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+
+    check();
+
+    window.addEventListener("resize", check);
+
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
   const images = project.images || [];
+
+  const previewLimit = isMobile ? 3 : 8;
+
+  const previewImages = images.slice(0, previewLimit);
+
+  const remainingImages = images.length - previewLimit;
+
   return (
     <div className="bg-white text-neutral pt-28 sm:pt-36 md:pt-26">
       {/* HEADER */}
@@ -206,31 +227,96 @@ const EditorialProjectLayout = ({ project }) => {
             </h2>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6 auto-rows-[260px]">
-          {project.images?.map((img, index) => {
-            const large = index % 5 === 0;
-
-            return (
+        {/* MOBILE */}
+        <div className="grid grid-cols-1 gap-1 md:hidden">
+          {previewImages.map((img, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
               <div
-                key={index}
+                className="absolute inset-0 z-10"
                 onClick={() => {
                   setGalleryIndex(index);
                   setGalleryOpen(true);
                 }}
-                className={`relative overflow-hidden rounded-xl cursor-pointer group
-                            ${large ? "lg:col-span-8 lg:row-span-2" : "lg:col-span-4"}
-                `}
-              >
+              />
+              <div className="relative z-0">
                 <img
                   src={img.after || img.src}
-                  alt={img.alt}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  className="w-full h-[40vh] object-cover lg:rounded-xl"
                 />
-
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-500" />
+                {index === previewImages.length - 1 && remainingImages > 0 && (
+                  <div
+                    className="absolute inset-0 z-20 flex items-center justify-center bg-black/50 text-white text-xl font-semibold"
+                    onClick={() => {
+                      setGalleryIndex(previewLimit);
+                      setGalleryOpen(true);
+                    }}
+                  >
+                    +{remainingImages} {tProject("more")}
+                  </div>
+                )}
               </div>
-            );
-          })}
+            </motion.div>
+          ))}
+        </div>
+
+        {/* DESKTOP */}
+        <div className="hidden xl:block columns-3 gap-6">
+          {previewImages.map((img, index) => (
+            <div
+              key={index}
+              className="mb-6 break-inside-avoid relative overflow-hidden rounded-2xl cursor-pointer group"
+              onClick={() => {
+                setGalleryIndex(index);
+                setGalleryOpen(true);
+              }}
+            >
+              <img
+                src={img.after || img.src}
+                className="w-full object-cover rounded-2xl"
+              />
+
+              {index === previewImages.length - 1 && remainingImages > 0 && (
+                <div className="absolute bottom-3 right-3 z-20">
+                  <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
+                    +{remainingImages}
+                  </span>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+        {/* TABLET */}
+        <div className="hidden md:grid xl:hidden grid-cols-2 gap-4">
+          {previewImages.map((img, index) => (
+            <div
+              key={index}
+              className="relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer"
+              onClick={() => {
+                setGalleryIndex(index);
+                setGalleryOpen(true);
+              }}
+            >
+              <img
+                src={img.after || img.src}
+                className="w-full h-full object-cover"
+              />
+
+              {index === previewImages.length - 1 && remainingImages > 0 && (
+                <div className="absolute bottom-3 right-3">
+                  <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
+                    +{remainingImages}
+                  </span>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
       </section>
       {/* TAGS */}

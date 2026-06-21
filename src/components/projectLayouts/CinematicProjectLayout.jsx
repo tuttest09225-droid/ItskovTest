@@ -1,6 +1,6 @@
 // CinematicProjectLayout.jsx
 
-import { useState, useMemo, useRef } from "react";
+import { useEffect, useState, useMemo, useRef } from "react";
 import { useTranslation } from "react-i18next";
 import { useParams, Link, Navigate, useNavigate } from "react-router-dom";
 import { Helmet } from "react-helmet";
@@ -42,6 +42,24 @@ const CinematicProjectLayout = () => {
   }, [projectsRaw, slug]);
 
   const images = project?.images || [];
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 768);
+
+    check();
+
+    window.addEventListener("resize", check);
+
+    return () => window.removeEventListener("resize", check);
+  }, []);
+
+  const previewLimit = isMobile ? 3 : 10;
+
+  const previewImages = images.slice(0, previewLimit);
+
+  const remainingImages = images.length - previewLimit;
 
   const [singleImage, setSingleImage] = useState(null);
 
@@ -262,9 +280,9 @@ const CinematicProjectLayout = () => {
         {/* GALLERY */}
         <section
           ref={galleryRef}
-          className="w-full lg:max-w-[90vw] mx-auto lg:px-8 py-5 lg:py-8"
+          className="w-full md:max-w-[90vw] mx-auto lg:px-8 py-5 lg:py-8"
         >
-          <div className="mb-8 lg:mb-20 max-w-[90vw] place-self-center lg:place-self-start">
+          <div className="mb-8 lg:mb-20 max-w-[90vw] place-self-center md:place-self-start">
             <p className="uppercase tracking-[0.3em] text-sm text-neutral/50 mb-4">
               {tProject("gallery")}
             </p>
@@ -275,8 +293,8 @@ const CinematicProjectLayout = () => {
           </div>
 
           {/* MOBILE */}
-          <div className="grid grid-cols-1 gap-1 lg:hidden">
-            {images.map((img, index) => (
+          <div className="grid grid-cols-1 gap-1 md:hidden">
+            {previewImages.map((img, index) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 40 }}
@@ -297,44 +315,74 @@ const CinematicProjectLayout = () => {
                     src={img.after || img.src}
                     className="w-full h-[40vh] object-cover lg:rounded-xl"
                   />
+                  {index === previewImages.length - 1 &&
+                    remainingImages > 0 && (
+                      <div
+                        className="absolute inset-0 z-20 flex items-center justify-center bg-black/50 text-white text-xl font-semibold"
+                        onClick={() => {
+                          setGalleryIndex(previewLimit);
+                          setGalleryOpen(true);
+                        }}
+                      >
+                        +{remainingImages} {tProject("more")}
+                      </div>
+                    )}
                 </div>
               </motion.div>
             ))}
           </div>
 
           {/* DESKTOP */}
-          <div className="hidden lg:grid grid-cols-12 gap-6 auto-rows-[300px]">
-            {images.map((img, index) => {
-              const large = index % 5 === 0;
+          <div className="hidden xl:block columns-3 gap-6">
+            {previewImages.map((img, index) => (
+              <motion.div
+                key={index}
+                className="mb-6 break-inside-avoid relative overflow-hidden rounded-2xl cursor-pointer group"
+                onClick={() => {
+                  setGalleryIndex(index);
+                  setGalleryOpen(true);
+                }}
+              >
+                <img
+                  src={img.after || img.src}
+                  className="w-full object-cover rounded-2xl"
+                />
 
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 60 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                  viewport={{ once: true }}
-                  className={`relative overflow-hidden rounded-2xl cursor-pointer group
-                    ${large ? "col-span-8 row-span-2" : "col-span-4"}
-                  `}
-                >
-                  <div
-                    className="absolute inset-0 z-10"
-                    onClick={() => {
-                      setGalleryIndex(index);
-                      setGalleryOpen(true);
-                    }}
-                  />
-                  <div className="relative z-0">
-                    <img
-                      src={img.after || img.src}
-                      className="w-full max-h-full object-cover rounded-xl"
-                    />
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-500" />
+                {index === previewImages.length - 1 && remainingImages > 0 && (
+                  <div className="absolute bottom-3 right-3 z-20">
+                    <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
+                      +{remainingImages}
+                    </span>
                   </div>
-                </motion.div>
-              );
-            })}
+                )}
+              </motion.div>
+            ))}
+          </div>
+          {/* TABLET */}
+          <div className="hidden md:grid xl:hidden grid-cols-2 gap-4">
+            {previewImages.map((img, index) => (
+              <motion.div
+                key={index}
+                className="relative overflow-hidden rounded-2xl aspect-[4/3] cursor-pointer"
+                onClick={() => {
+                  setGalleryIndex(index);
+                  setGalleryOpen(true);
+                }}
+              >
+                <img
+                  src={img.after || img.src}
+                  className="w-full h-full object-cover"
+                />
+
+                {index === previewImages.length - 1 && remainingImages > 0 && (
+                  <div className="absolute bottom-3 right-3">
+                    <span className="px-3 py-1 rounded-full bg-black/40 backdrop-blur text-white text-xs">
+                      +{remainingImages}
+                    </span>
+                  </div>
+                )}
+              </motion.div>
+            ))}
           </div>
         </section>
 

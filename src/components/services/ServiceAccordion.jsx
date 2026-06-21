@@ -17,6 +17,12 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
     ...img,
     src: img.src || img.after,
   }));
+
+  const galleryThumbs = service.thumbs?.map((img) => ({
+    ...img,
+    src: img.src,
+  }));
+
   const accordionRef = useRef(null);
 
   const scrollToAccordion = () => {
@@ -116,8 +122,8 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
             >
               {/* Main image */}
               <img
-                src={galleryImages[0].src}
-                alt={galleryImages[0].alt}
+                src={galleryThumbs[0]?.src || galleryImages[0].src}
+                alt={galleryThumbs[0]?.alt || galleryImages[0].alt}
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-active:scale-105 "
               />
 
@@ -128,15 +134,15 @@ const ServiceAccordion = ({ service, isOpen, onToggle }) => {
               {galleryImages[1] && (
                 <div className="absolute top-3 right-3 flex flex-col gap-1">
                   <img
-                    src={galleryImages[1].src}
-                    alt={galleryImages[1].alt}
+                    src={galleryThumbs[1]?.src || galleryImages[1].src}
+                    alt={galleryThumbs[1]?.alt || galleryImages[1].alt}
                     className="w-14 h-14 object-cover rounded-md border border-white/10 "
                   />
 
                   {galleryImages[2] && (
                     <img
-                      src={galleryImages[2].src}
-                      alt={galleryImages[2].alt}
+                      src={galleryThumbs[2]?.src || galleryImages[2].src}
+                      alt={galleryThumbs[2]?.alt || galleryImages[2].alt}
                       className="w-14 h-14 object-cover rounded-md border border-white/10 opacity-80 "
                     />
                   )}
