@@ -422,26 +422,41 @@
         "Изолация",
         "Фини повърхности"
       ],
+      "thumbs": [
+        {
+          "src": "/services/plastering/1_thumb.webp",
+          "alt": "Plastering 1"
+        },
+        {
+          "src": "/services/plastering/2-aft_thumb.webp",
+          "alt": "Plastering 2"
+        },
+        {
+          "src": "/services/plastering/3_thumb.webp",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4_thumb.webp",
+          "alt": "Plastering 4"
+        }
+      ],
       "images": [
         {
-          "src": "/services-complete.jpg",
-          "alt": "Проект координация 1"
+          "src": "/services/plastering/1.webp",
+          "alt": "Plastering 1"
         },
         {
-          "src": "/services-complete.jpg",
-          "alt": "Проект координация 2"
+          "before": "/services/tiling/2-bef.webp",
+          "after": "/services/tiling/2-aft.webp",
+          "alt": "Plastering 2 Comparison"
         },
         {
-          "src": "/services-complete.jpg",
-          "alt": "Проект координация 3"
+          "src": "/services/plastering/3.webp",
+          "alt": "Plastering 3"
         },
         {
-          "src": "/services-complete.jpg",
-          "alt": "Проект координация 4"
-        },
-        {
-          "src": "/services-complete.jpg",
-          "alt": "Проект координация 5"
+          "src": "/services/plastering/4.webp",
+          "alt": "Plastering 4"
         }
       ]
     },
@@ -471,19 +486,19 @@
       ],
       "thumbs": [
         {
-          "src": "/services/tiling/4-thumb.webp",
+          "src": "/services/tiling/4_thumb.webp",
           "alt": "Tile installation 4"
         },
         {
-          "src": "/services/tiling/1-thumb.webp",
+          "src": "/services/tiling/1_thumb.webp",
           "alt": "Tile installation 1"
         },
         {
-          "src": "/services/tiling/2-thumb.webp",
+          "src": "/services/tiling/2_thumb.webp",
           "alt": "Tile installation 2"
         },
         {
-          "src": "/services/tiling/3-thumb.webp",
+          "src": "/services/tiling/3_thumb.webp",
           "alt": "Tile installation 3"
         }
       ],
@@ -673,6 +688,43 @@
         "Подготовка на основата",
         "Прецизно нивелиране",
         "Готовност за настилки"
+      ],
+      "thumbs": [
+        {
+          "src": "/services/plastering/1_thumb.webp",
+          "alt": "Plastering 1"
+        },
+        {
+          "src": "/services/plastering/2-aft_thumb.webp",
+          "alt": "Plastering 2"
+        },
+        {
+          "src": "/services/plastering/3_thumb.webp",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4_thumb.webp",
+          "alt": "Plastering 4"
+        }
+      ],
+      "images": [
+        {
+          "src": "/services/plastering/1.webp",
+          "alt": "Plastering 1"
+        },
+        {
+          "before": "/services/tiling/2-bef.webp",
+          "after": "/services/tiling/2-aft.webp",
+          "alt": "Plastering 2 Comparison"
+        },
+        {
+          "src": "/services/plastering/3.webp",
+          "alt": "Plastering 3"
+        },
+        {
+          "src": "/services/plastering/4.webp",
+          "alt": "Plastering 4"
+        }
       ]
     }
   ]

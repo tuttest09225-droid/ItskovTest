@@ -172,7 +172,7 @@
             "layout": "cinematic",
             "category": "commercial",
             "time": "5 Working Days",
-            "mainImage": "/projects/Parking_refurbished/IMG_5401.jpeg",
+            "mainImage": "/projects/Parking_refurbished/3.webp",
             "hero": {
                 "title": "Parking Area Renovation",
                 "subtitle": "Maintenance & Renovation",
@@ -233,19 +233,63 @@
             "galleryTitle": "Complete gallery",
             "images": [
                 {
+                    "src": "/projects/Parking_refurbished/3.webp",
+                    "alt": "Parking refurbished photo 3"
+                },
+                {
+                    "src": "/projects/Parking_refurbished/1.webp",
+                    "alt": "Parking refurbished photo 1"
+                },
+                {
+                    "src": "/projects/Parking_refurbished/2.webp",
+                    "alt": "Parking refurbished photo 2"
+                },
+                {
                     "before": "/projects/Parking_markings/parking-1-bef.webp",
                     "after": "/projects/Parking_markings/parking-1-aft.webp",
-                    "alt": "Ceiling renovation comparison"
+                    "alt": "Parking markings comparison"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-6-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-6-aft.webp",
+                    "alt": "Parking refurbished comparison 6"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-7-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-7-aft.webp",
+                    "alt": "Parking refurbished comparison 7"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-8-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-8-aft.webp",
+                    "alt": "Parking refurbished comparison 8"
+                },
+                {
+                    "src": "/projects/Parking_refurbished/4.webp",
+                    "alt": "Parking refurbished photo 4"
+                },
+                {
+                    "src": "/projects/Parking_refurbished/5.webp",
+                    "alt": "Parking refurbished photo 5"
+                },
+                {
+                    "src": "/projects/Parking_refurbished/7.webp",
+                    "alt": "Parking refurbished photo 7"
                 },
                 {
                     "before": "/projects/Parking_markings/parking-2-bef.webp",
                     "after": "/projects/Parking_markings/parking-2-aft.webp",
-                    "alt": "Ceiling renovation comparison"
+                    "alt": "Parking markings comparison"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-13-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-13-aft.webp",
+                    "alt": "Parking refurbished comparison 13"
                 },
                 {
                     "before": "/projects/Parking_markings/parking-3-bef.webp",
                     "after": "/projects/Parking_markings/parking-3-aft.webp",
-                    "alt": "Ceiling renovation comparison"
+                    "alt": "Parking markings comparison"
                 },
                 {
                     "src": "/projects/Parking_markings/parking-4.webp",
@@ -254,6 +298,26 @@
                 {
                     "src": "/projects/Parking_markings/parking-5.webp",
                     "alt": "Mall project photo 5"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-9-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-9-aft.webp",
+                    "alt": "Parking refurbished comparison 9"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-19-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-10-aft.webp",
+                    "alt": "Parking refurbished comparison 10"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-11-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-11-aft.webp",
+                    "alt": "Parking refurbished comparison 11"
+                },
+                {
+                    "before": "/projects/Parking_refurbished/parking-12-bef.webp",
+                    "after": "/projects/Parking_refurbished/parking-12-aft.webp",
+                    "alt": "Parking refurbished comparison 12"
                 }
             ]
         },
@@ -429,5 +493,6 @@
     "filteredByTag": "Showing results for - {{tag}}",
     "backToProjects": "Back to projects",
     "allProjectsBtn": "All projects",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "more": "more"
 }
